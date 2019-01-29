@@ -8,6 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = "./pelican-blueidea"
+
 TIMEZONE = 'Asia/Manila'
 
 DEFAULT_LANG = u'en'
