@@ -1,9 +1,10 @@
-How to contribute to this blog
+Communication Performance Modeling in HPC
 #########################################
 
-:date: 2019-2-1
-:category: HowTo's
+:date: 2019-1-29
+:category: Paper Review
 :author: Joseph Anthony C. Hermocilla
 
-This blog uses Pelican. Contributions can be made by SRG members. This
-post describes the process.
+Paper: 
+
+This paper talks about...
