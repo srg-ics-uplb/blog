@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 
-THEME = "./pelican-blueidea"
+THEME = "./pelican-alchemy"
 
 TIMEZONE = 'Asia/Manila'
 
