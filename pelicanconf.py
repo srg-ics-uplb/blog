@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'SRG'
 SITENAME = u'Thoughts of a Packet'
-SITEURL = ''
+SITEURL = u'https://srg-ics-uplb.github.io/blog'
 
 PATH = 'content'
 
-THEME = "./pelican-alchemy"
+THEME = "./pelican-blueidea"
 
 TIMEZONE = 'Asia/Manila'
 
