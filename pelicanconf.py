@@ -8,7 +8,7 @@ SITEURL = u'https://srg-ics-uplb.github.io/blog'
 
 PATH = 'content'
 
-THEME = "./pelican-blueidea"
+THEME = "./alchemy"
 
 TIMEZONE = 'Asia/Manila'
 
