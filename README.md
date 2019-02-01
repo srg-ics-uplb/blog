@@ -1,4 +1,4 @@
-##SRG blog
+## Contributing
 
 ### Setup environment
 ```bash
@@ -8,7 +8,7 @@ $pip install pelican markdown ghp-import
 ```
 ### Clone, edit, build, deploy
 ```shell
-$git clone 
+$git clone https://github.com/srg-ics-uplb/blog.git 
 $make html
 $make github
 ```
