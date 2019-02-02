@@ -11,7 +11,7 @@ $pip install pelican markdown ghp-import
 ### Fork, Clone, Edit, Build, Test, Deploy, Pull Request
 ```shell
 $git clone <your forked repo> 
-$make html
+$make html #after doing some edits
 $make devserver
 $make github
 ```
