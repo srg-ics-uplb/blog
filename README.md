@@ -10,8 +10,9 @@ $pip install pelican markdown ghp-import
 ```
 ### Fork, Clone, Edit, Build, Deploy, Pull Request
 ```shell
-$git clone https://github.com/srg-ics-uplb/blog.git 
+$git clone <your forked repo> 
 $make html
+$make devserver
 $make github
 ```
 
