@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets - HowTo's</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/howtos.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2019-02-01T00:00:00+08:00</updated><entry><title>How to contribute to this blog</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-02-01T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog.html</id><summary type="html">&lt;p&gt;This blog uses Pelican. Contributions can be made by SRG members. This
-post describes the process.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;This blog uses Pelican. Contributions can be made by SRG members. This
-post describes the process.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets - HowTo's</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/howtos.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2019-03-05T00:00:00+08:00</updated><entry><title>How to contribute to this blog</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Setup environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+&lt;span class="nv"&gt;$virtualenv&lt;/span&gt; pelican-blog-venv
+&lt;span class="nv"&gt;$source&lt;/span&gt; pelican-blog-venv/bin/activate
+&lt;span class="nv"&gt;$pip&lt;/span&gt; install pelican markdown ghp-import
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" /&gt;
+</summary><content type="html">&lt;p&gt;&lt;strong&gt;Setup environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+&lt;span class="nv"&gt;$virtualenv&lt;/span&gt; pelican-blog-venv
+&lt;span class="nv"&gt;$source&lt;/span&gt; pelican-blog-venv/bin/activate
+&lt;span class="nv"&gt;$pip&lt;/span&gt; install pelican markdown ghp-import
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" /&gt;
 </content></entry></feed>

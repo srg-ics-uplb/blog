@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Lost Packets - Joseph Anthony C. Hermocilla</title><link>https://srg-ics-uplb.github.io/blog/</link><description></description><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0800</lastBuildDate><item><title>How to contribute to this blog</title><link>https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html</link><description>&lt;p&gt;This blog uses Pelican. Contributions can be made by SRG members. This
-post describes the process.&lt;/p&gt;
+<rss version="2.0"><channel><title>Lost Packets - Joseph Anthony C. Hermocilla</title><link>https://srg-ics-uplb.github.io/blog/</link><description></description><lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0800</lastBuildDate><item><title>How to contribute to this blog</title><link>https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html</link><description>&lt;p&gt;&lt;strong&gt;Setup environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+&lt;span class="nv"&gt;$virtualenv&lt;/span&gt; pelican-blog-venv
+&lt;span class="nv"&gt;$source&lt;/span&gt; pelican-blog-venv/bin/activate
+&lt;span class="nv"&gt;$pip&lt;/span&gt; install pelican markdown ghp-import
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" /&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Joseph Anthony C. Hermocilla</dc:creator><pubDate>Fri, 01 Feb 2019 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog.html</guid></item><item><title>Communication Performance Modeling in HPC</title><link>https://srg-ics-uplb.github.io/blog/communication-performance-modeling-in-hpc.html</link><description>&lt;p&gt;Paper:&lt;/p&gt;
 &lt;p&gt;This paper talks about...&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Joseph Anthony C. Hermocilla</dc:creator><pubDate>Tue, 29 Jan 2019 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:srg-ics-uplb.github.io,2019-01-29:/blog/communication-performance-modeling-in-hpc.html</guid></item></channel></rss>
