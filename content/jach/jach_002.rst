@@ -60,7 +60,7 @@ content. You're going to place all your entries in this directory.
 
    $ mkdir -p content/<YOUR_NICKNAME>
 
-For example, the source for this entry is `here <https://github.com/srg-ics-uplb/blog/blob/master/content/jach/jach_002.rst>`_.
+For example, the source for this entry is `here <https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/jach/jach_002.rst>`_.
 
 If your entry has images, place them in the images directory,
 
