@@ -5,9 +5,11 @@ from __future__ import unicode_literals
 AUTHOR = u'SRG'
 SITENAME = u'Lost Packets'
 SITEURL = u'https://srg-ics-uplb.github.io/blog'
+STATIC_PATHS = [u'images']
+
+
 
 PATH = 'content'
-
 THEME = "./alchemy"
 
 TIMEZONE = 'Asia/Manila'
