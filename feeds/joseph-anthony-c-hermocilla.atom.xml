@@ -45,6 +45,7 @@ content. You're going to place all your entries in this directory.&lt;/p&gt;
 $ mkdir -p content/&amp;lt;YOUR_NICKNAME&amp;gt;
 &lt;/pre&gt;
 &lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog/blob/master/content/jach/jach_002.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If your entry has images, place them in the images directory,&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
