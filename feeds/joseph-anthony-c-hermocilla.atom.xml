@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets - Joseph Anthony C. Hermocilla</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/joseph-anthony-c-hermocilla.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2019-03-05T00:00:00+08:00</updated><entry><title>How to contribute to this blog</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Setup environment&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets - Joseph Anthony C. Hermocilla</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/joseph-anthony-c-hermocilla.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2019-03-05T00:00:00+08:00</updated><entry><title>How to contribute to this blog</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog.html</id><summary type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class="code shell literal-block"&gt;
-&lt;span class="nv"&gt;$virtualenv&lt;/span&gt; pelican-blog-venv
-&lt;span class="nv"&gt;$source&lt;/span&gt; pelican-blog-venv/bin/activate
-&lt;span class="nv"&gt;$pip&lt;/span&gt; install pelican markdown ghp-import
+$ virtualenv pelican-blog-venv
+$ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
+$ pip install pelican markdown ghp-import
 &lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is accomplished in github and you must be logged in. You should have
+the repository under your account …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+$ virtualenv pelican-blog-venv
+$ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
+$ pip install pelican markdown ghp-import
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is accomplished in github and you must be logged in. You should have
+the repository under your account after the fork.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Clone the repository from your account&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+$ git clone https://github.com/&amp;lt;YOUR_USERNAME&amp;gt;/blog.git
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;3. Configure a remote for your fork&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+$ git remote -v
+$ git remote add upstream https://github.com/srg-ics-uplb/blog.git
+$ git remote -v
+&lt;/pre&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork"&gt;Help: Create a remote&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Sync your fork with the upstream&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+&lt;/pre&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/syncing-a-fork"&gt;Help: Sync from upstream&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Create your blog entry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At this point you are ready to write your entries. Create your own directory inside
+content. You're going to place all your entries in this directory.&lt;/p&gt;
+&lt;pre class="code shell literal-block"&gt;
+$ mkdir -p content/&amp;lt;YOUR_NICKNAME&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog/blob/master/content/jach/jach_002.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" /&gt;
-</summary><content type="html">&lt;p&gt;&lt;strong&gt;Setup environment&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class="code shell literal-block"&gt;
-&lt;span class="nv"&gt;$virtualenv&lt;/span&gt; pelican-blog-venv
-&lt;span class="nv"&gt;$source&lt;/span&gt; pelican-blog-venv/bin/activate
-&lt;span class="nv"&gt;$pip&lt;/span&gt; install pelican markdown ghp-import
-&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" /&gt;
+&lt;img alt="" src="./images/srg.png" style="width: 60pt;" /&gt;
 </content></entry><entry><title>Communication Performance Modeling in HPC</title><link href="https://srg-ics-uplb.github.io/blog/communication-performance-modeling-in-hpc.html" rel="alternate"></link><published>2019-01-29T00:00:00+08:00</published><updated>2019-01-29T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-01-29:/blog/communication-performance-modeling-in-hpc.html</id><summary type="html">&lt;p&gt;Paper:&lt;/p&gt;
 &lt;p&gt;This paper talks about...&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Paper:&lt;/p&gt;

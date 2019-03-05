@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="./theme/css/style.css">
 
 
-<meta name="description" content="Setup environment $virtualenv pelican-blog-venv $source pelican-blog-venv/bin/activate $pip install pelican markdown ghp-import Additional Resources Adding content More on RST Syntax">
+<meta name="description" content="Contributions are encouraged from SRG members. 1. Set up the development environment $ virtualenv pelican-blog-venv $ source pelican-blog-venv/bin/activate $ pip install pelican markdown ghp-import 2. Fork the original repository SRG Blog Repository This is accomplished in github and you must be logged in. You should have the repository under your account …">
 </head>
 
 <body>
@@ -57,18 +57,48 @@
     </ul>
   </header>
   <div class="content">
-    <p><strong>Setup environment</strong></p>
+    <p>Contributions are encouraged from SRG members.</p>
+<p><strong>1. Set up the development environment</strong></p>
 <pre class="code shell literal-block">
-<span class="nv">$virtualenv</span> pelican-blog-venv
-<span class="nv">$source</span> pelican-blog-venv/bin/activate
-<span class="nv">$pip</span> install pelican markdown ghp-import
+$ virtualenv pelican-blog-venv
+$ <span class="nb">source</span> pelican-blog-venv/bin/activate
+$ pip install pelican markdown ghp-import
 </pre>
+<p><strong>2. Fork the original repository</strong></p>
+<p><a class="reference external" href="https://github.com/srg-ics-uplb/blog">SRG Blog Repository</a></p>
+<p>This is accomplished in github and you must be logged in. You should have
+the repository under your account after the fork.</p>
+<p><strong>3. Clone the repository from your account</strong></p>
+<pre class="code shell literal-block">
+$ git clone https://github.com/&lt;YOUR_USERNAME&gt;/blog.git
+</pre>
+<p><strong>3. Configure a remote for your fork</strong></p>
+<pre class="code shell literal-block">
+$ git remote -v
+$ git remote add upstream https://github.com/srg-ics-uplb/blog.git
+$ git remote -v
+</pre>
+<p><a class="reference external" href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork">Help: Create a remote</a></p>
+<p><strong>4. Sync your fork with the upstream</strong></p>
+<pre class="code shell literal-block">
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+</pre>
+<p><a class="reference external" href="https://help.github.com/en/articles/syncing-a-fork">Help: Sync from upstream</a></p>
+<p><strong>5. Create your blog entry</strong></p>
+<p>At this point you are ready to write your entries. Create your own directory inside
+content. You're going to place all your entries in this directory.</p>
+<pre class="code shell literal-block">
+$ mkdir -p content/&lt;YOUR_NICKNAME&gt;
+</pre>
+<p>For example, the source for this entry is <a class="reference external" href="https://github.com/srg-ics-uplb/blog/blob/master/content/jach/jach_002.rst">here</a>.</p>
 <p><strong>Additional Resources</strong></p>
 <ul class="simple">
 <li><a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html">Adding content</a></li>
 <li><a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst">More on RST Syntax</a></li>
 </ul>
-<img alt="" src="./images/srg.png" style="width: 60pt; height: 70pt;" />
+<img alt="" src="./images/srg.png" style="width: 60pt;" />
 
   </div>
 </article>
