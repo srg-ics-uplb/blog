@@ -6,11 +6,10 @@ github itself via the web browser.&lt;/p&gt;
 &lt;p&gt;This is accomplished in github and you must be logged in. You should have
 the repository under your account after the fork. The succeeding steps …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Joseph Anthony C. Hermocilla</dc:creator><pubDate>Sat, 02 Feb 2019 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:srg-ics-uplb.github.io,2019-02-02:/blog/how-to-contribute-to-this-blog-short-method.html</guid></item><item><title>How to contribute to this blog (Long Method)</title><link>https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog-long-method.html</link><description>&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class="code shell literal-block"&gt;
-$ virtualenv pelican-blog-venv
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv pelican-blog-venv
 $ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
 $ pip install pelican markdown ghp-import
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This is accomplished in github and you must be logged in. You should have
