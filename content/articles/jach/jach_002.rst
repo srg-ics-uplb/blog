@@ -18,7 +18,7 @@ the repository under your account after the fork. The succeeding steps will be d
 
 **2. Create your entries**
 
-If this is your first entry, you must create an folder for your articles.
+If this is your first entry, you must create a folder for your articles.
 
 Navigate to  ``"contents/articles"``.
 
