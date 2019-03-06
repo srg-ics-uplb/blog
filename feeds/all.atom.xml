@@ -25,7 +25,7 @@ the repository under your account after the fork. The succeeding steps will be d
 create the file there.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4. Using images&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Navigate to  &lt;tt class="docutils literal"&gt;&amp;quot;contents/images&amp;quot;&lt;/tt&gt;.&lt;/p&gt;
-&lt;p&gt;Upload your image, say &amp;quot;code.png&amp;quot;&lt;/p&gt;
+&lt;p&gt;Upload your image, say &amp;quot;code.png&amp;quot;.&lt;/p&gt;
 &lt;p&gt;To use your image in the article:&lt;/p&gt;
 &lt;pre class="code html literal-block"&gt;
 .. image:: ./images/code.png
