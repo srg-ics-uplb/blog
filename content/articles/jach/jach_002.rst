@@ -41,7 +41,7 @@ create the file there.
 
 Navigate to  ``"contents/images"``.
 
-Upload your image, say "code.png"
+Upload your image, say "code.png".
 
 To use your image in the article:
 
