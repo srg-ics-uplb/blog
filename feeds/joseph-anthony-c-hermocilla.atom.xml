@@ -76,7 +76,7 @@ content. You're going to place all your entries in this directory.&lt;/p&gt;
 &lt;pre class="code shell literal-block"&gt;
 $ mkdir -p content/&amp;lt;YOUR_NICKNAME&amp;gt;
 &lt;/pre&gt;
-&lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/jach/jach_002.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/articles/jach/jach_001.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If your entry has images, place them in the images directory,&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
