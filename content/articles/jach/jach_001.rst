@@ -12,7 +12,7 @@ Contributions are encouraged from SRG members.
 **1. Set up the development environment**
 
 
-.. code:: shell
+.. code-block:: shell
 
    $ virtualenv pelican-blog-venv
    $ source pelican-blog-venv/bin/activate
@@ -27,13 +27,13 @@ the repository under your account after the fork.
 
 **3. Clone the repository from your account**
 
-.. code:: shell
+.. code-block:: shell
 
    $ git clone https://github.com/<YOUR_USERNAME>/blog.git
 
 **3. Configure a remote for your fork**
 
-.. code:: shell
+.. code-block:: shell
 
    $ git remote -v
    $ git remote add upstream https://github.com/srg-ics-uplb/blog.git   
@@ -43,7 +43,7 @@ the repository under your account after the fork.
 
 **4. Sync your fork with the upstream**
 
-.. code:: shell
+.. code-block:: shell
 
    $ git fetch upstream
    $ git checkout master
@@ -56,7 +56,7 @@ the repository under your account after the fork.
 At this point you are ready to write your entries. Create your own directory inside 
 content. You're going to place all your entries in this directory.
 
-.. code:: shell 
+.. code-block:: shell 
 
    $ mkdir -p content/<YOUR_NICKNAME>
 
