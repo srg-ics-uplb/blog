@@ -12,7 +12,7 @@ github itself via the web browser.&lt;/p&gt;
 &lt;p&gt;This is accomplished in github and you must be logged in. You should have
 the repository under your account after the fork. The succeeding steps will be done on this forked repo.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2. Create your entries&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If this is your first entry, you must create an folder for your articles.&lt;/p&gt;
+&lt;p&gt;If this is your first entry, you must create a folder for your articles.&lt;/p&gt;
 &lt;p&gt;Navigate to  &lt;tt class="docutils literal"&gt;&amp;quot;contents/articles&amp;quot;&lt;/tt&gt;.&lt;/p&gt;
 &lt;p&gt;Click the &lt;tt class="docutils literal"&gt;&amp;quot;Create new file button&amp;quot;&lt;/tt&gt;.&lt;/p&gt;
 &lt;p&gt;Specify the file name of the first entry, say &lt;tt class="docutils literal"&gt;&amp;quot;clinton/clinton_001.rst&amp;quot;&lt;/tt&gt;.&lt;/p&gt;
