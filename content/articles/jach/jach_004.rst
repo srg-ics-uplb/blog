@@ -6,7 +6,7 @@ Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems
 :author: Joseph Anthony C. Hermocilla
 
 Most processors nowadays are multi-core processors to take advantage of parallel processing. 
-Associated with parallel processing is the synchronization problem wherin locks are extensively 
+Associated with parallel processing is the synchronization problem wherein locks are extensively 
 used. This paper [GUERRAOUI2019]_ argues that despite the large amount of available choices for 
 lock algorithms, developers do not have a comprehensive guide to select an algorithm. The paper also 
 asserts that most research on lock algorithms are limited to mutex locks and rarely consider other 

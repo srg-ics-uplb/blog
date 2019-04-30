@@ -12,8 +12,8 @@ For example, if I want to run computational chemistry app, I need to make a deci
 whether to use a VM with 1 VCPU and 2GB RAM or a VM with 2 VCPUs and 4GB RAM. 
 
 Cloud providers run benchmarks to measure the performance of various VM configurations for applications. 
-However, these benchmarks are done independent of the application to be deployed. Most like because 
-providers have no knowledge of what application will be deployed. ]
+However, these benchmarks are done independent of the application to be deployed. Most likely because 
+providers have no knowledge of what application will be deployed.
 
 This paper [VARGHESE2019_] addresses these issues by introducing an application-aware benchmarking 
 methodology. The main hypothesis presented in the paper is that by taking into account application 
@@ -40,6 +40,7 @@ In Step 2, the following are the identified attribute groups:
 - storage
 
 As for the benchmarking part, the researchers used bonnie++, lmbench, and sysbench.
+
 It is worth noting that this paper did not consider inter-VM communication. The 
 local communication is between the cores in the VM only. Perhaps a future work will 
 be to consider inter-VM communication in the methodology.
