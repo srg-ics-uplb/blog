@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems | Lost Packets
+</title>
+  <link rel="canonical" href="./lock-unlock-is-that-all-a-pragmatic-analysis-of-locking-in-software-systems.html">
+
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" title="Full Atom Feed">
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/{slug}.atom.xml" title="Categories Atom Feed">
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="Most processors nowadays are multi-core processors to take advantage of parallel processing. Associated with parallel processing is the synchronization problem wherein locks are extensively used. This paper [GUERRAOUI2019] argues that despite the large amount of available choices for lock algorithms, developers do not have a comprehensive guide to select an …">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Lost Packets</a></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2019-04-14T00:00:00+08:00">
+        <i class="fa fa-clock-o"></i>
+        Sun 14 April 2019
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/paper-review.html">Paper Review</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/joseph-anthony-c-hermocilla.html">Joseph Anthony C. Hermocilla</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <p>Most processors nowadays are multi-core processors to take advantage of parallel processing.
+Associated with parallel processing is the synchronization problem wherein locks are extensively
+used. This paper <a class="citation-reference" href="#guerraoui2019" id="id1">[GUERRAOUI2019]</a> argues that despite the large amount of available choices for
+lock algorithms, developers do not have a comprehensive guide to select an algorithm. The paper also
+asserts that most research on lock algorithms are limited to mutex locks and rarely consider other
+techniques like trylocks and condition variables. In addition, most evaluation of lock algorithms
+use workload that are specific to the design of the lock. Lastly, evaluation is focused only on throughput
+neglecting energy efficiency and tail latency.</p>
+<p>The main contribution of this paper is a broad performance study of lock algorithms. Specifically,
+28 state-of-the-art algorithms were studied and applied to 40 applications. The experiments where
+conducted of 4 different multi-core machines. As mentioned, this study considered energy efficiency and
+tail latency, in addition to throughtput, as metrics in the evaluation. In the paper, the authors
+claimed that it is really difficult to choose a well-performing lock for an application because of
+several factors: workload, hardware, degree of parallelism, number of locks, how they are used, interaction
+between the application and the CPU scheduler, and metric. The authors also developed a library called LiTL
+used for testing the applications.</p>
+<p>The authors have the following observations as a result of their study</p>
+<blockquote>
+<ul class="simple">
+<li>Trylocks and condition variables should also be considered</li>
+<li>Memory footprint of lock algorithms affect performance</li>
+<li>Interaction between locks and scheduling affects performance</li>
+<li>Lock tail latency may not affect application tail latency</li>
+<li>No single lock is systematically the best</li>
+<li>Choosing the best lock is difficult</li>
+<li>Energy efficiency and throughput go hand-in-hand in lock algorithms</li>
+</ul>
+</blockquote>
+<p>The figure below is a guide for developers in selecting the appropriate lock considering
+the findings of the the study.</p>
+<img alt="" src="./images/jach/locks.png" style="width: 40%;" />
+<table class="docutils citation" frame="void" id="guerraoui2019" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[GUERRAOUI2019]</a></td><td>Guerraoui, R., Guiroux, H., Lachaize, R., Quéma, V., &amp; Trigonakis, V. (2019). Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems. ACM Transactions on Computer Systems, 36(1), 1–149. <a class="reference external" href="https://doi.org/10.1145/3301501">https://doi.org/10.1145/3301501</a></td></tr>
+</tbody>
+</table>
+
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
