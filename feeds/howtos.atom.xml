@@ -31,7 +31,7 @@ create the file there.&lt;/p&gt;
 &lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;3. Make a pull request&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If your article is ready to be published, make a pull request.&lt;/p&gt;
-</content></entry><entry><title>How to contribute to this blog (Long Method)</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog-long-method.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog-long-method.html</id><summary type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
+</content><category term="HowTo's"></category></entry><entry><title>How to contribute to this blog (Long Method)</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog-long-method.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog-long-method.html</id><summary type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv pelican-blog-venv
 $ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
@@ -78,4 +78,4 @@ content. You're going to place all your entries in this directory.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img alt="" src="./images/jach/srg.png" style="width: 60pt;" /&gt;
-</content></entry></feed>
+</content><category term="HowTo's"></category></entry></feed>
