@@ -12,7 +12,7 @@ This article [BAGCHI2019_] addresses three challenges related to the dependabili
 2. How should security and privacy issues be addressed?
 3. How should multi-tenancy be addressed in resource-constrained edge devices?
 
-Edge computing attempts to improve the performance of software applications by placing computing resources closer to user devices and information sources. This has the effect of increasing the bandwidth and reducing latency. The word "edge" refers to the location of the computing resources in the network topology. In the case of the Internet, it is about two hops (routing) away from the user's device. 
+Edge computing attempts to improve the performance of software applications by placing computing resources closer to user devices and information sources. This has the effect of increasing the bandwidth and reducing latency. The word "edge" refers to the location of the computing resources in the network topology. In the case of the Internet, it is about two hops (routers) away from the user's device. 
 
 For example, a smart toaster (the IoT device) with limited computing capabilities that needs to perform machine learning can use the edge server located in the datacenter of the ISP (a home router can also act as edge server). The traditional approach would be to offload the computation to Google servers over the cloud. 
 
