@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Dependability in Edge Computing | Lost Packets
+</title>
+  <link rel="canonical" href="./dependability-in-edge-computing.html">
+
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" title="Full Atom Feed">
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/{slug}.atom.xml" title="Categories Atom Feed">
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="This article [BAGCHI2019] addresses three challenges related to the dependability of edge computing namely: How should failures be handled? How should security and privacy issues be addressed? How should multi-tenancy be addressed in resource-constrained edge devices? Edge computing attempts to improve the performance of software applications by placing computing resources …">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Lost Packets</a></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>Dependability in Edge Computing
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2020-02-17T00:00:00+08:00">
+        <i class="fa fa-clock-o"></i>
+        Mon 17 February 2020
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/paper-review.html">Paper Review</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/joseph-anthony-c-hermocilla.html">Joseph Anthony C. Hermocilla</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <p>This article [<a class="reference internal" href="#bagchi2019">BAGCHI2019</a>] addresses three challenges related to the dependability of edge computing namely:</p>
+<ol class="arabic simple">
+<li>How should failures be handled?</li>
+<li>How should security and privacy issues be addressed?</li>
+<li>How should multi-tenancy be addressed in resource-constrained edge devices?</li>
+</ol>
+<p>Edge computing attempts to improve the performance of software applications by placing computing resources closer to user devices and information sources. This has the effect of increasing the bandwidth and reducing latency. The word &quot;edge&quot; refers to the location of the computing resources in the network topology. In the case of the Internet, it is about two hops (routers) away from the user's device.</p>
+<p>For example, a smart toaster (the IoT device) with limited computing capabilities that needs to perform machine learning can use the edge server located in the datacenter of the ISP (a home router can also act as edge server). The traditional approach would be to offload the computation to Google servers over the cloud.</p>
+<p>The key idea is that if the user's device (local) cannot perform the required operation, it can offload the computation to a device near it (edge) instead of a server-class device (cloud) located across the globe.</p>
+<p><em>How should failures be handled?</em></p>
+<p>Since edge computing is in its infancy, most design decisions are made on a small scale. However, the number of user devices connecting to the network continues to increase. In addition, IoT devices continue to generate large volumes of data.  This results in the clogging of the network with some requests being dropped.  Time-critical applications will fail since computations will be forwarded to the cloud.</p>
+<p>One way to solve this lack of failover options is to agree on peer-based failover, similar to what is being done in microgrids. To solve real-time requirements, edge devices can forward delay-tolerant computations to the cloud to lessen the workload on the edge devices. The scheduler can then prioritize time-critical applications.</p>
+<p><em>How should security and privacy issues be addressed?</em></p>
+<p>Edge devices will most probably be cheap (compared to server-grade machines used in the cloud) and will be heterogeneous. This will require mechanisms that can guarantee privacy and security in edge devices with limited computing resources and with different configurations.</p>
+<p>In particular, edge devices are easy to access physically since they are near the vicinity of user devices. This makes them susceptible to physical tampering. Traditional security mechanisms like code signatures and PKI can still be used but with some performance degradation. Device management will require some form of key-based authentication to make sure that edge devices have not been modified after deployment. Finally, updates should be made regularly on edge devices to patch vulnerabilities.</p>
+<p><em>How should multi-tenancy be addressed in resource-constrained edge devices?</em></p>
+<p>Edge devices should be able to support multiple tenants or applications in the same manner as the cloud. Issues such as billing and scheduling will need to be addressed also. All these should be done in resource-constrained devices.</p>
+<p>Two example applications in the context of the issues described above, a smart toaster and a smart door lock, were presented in the paper. These two applications have different requirements in terms of bandwidth and latency.</p>
+<p>My takeaway from this paper is that edge computing is very similar to cloud computing. One difference is that edge devices are resource-constrained compared to cloud servers. This makes it difficult to make these systems dependable. Management is also a challenge  as edge devices are heterogeneous and owned by different entities.</p>
+<table class="docutils citation" frame="void" id="bagchi2019" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[BAGCHI2019]</td><td>Saurabh Bagchi, Muhammad-Bilal Siddiqui, Paul Wood, and Heng Zhang. 2019. Dependability in edge computing. Commun. ACM 63, 1 (December 2019), 58–66. <a class="reference external" href="https://doi.org/10.1145/3362068">DOI:https://doi.org/10.1145/3362068</a></td></tr>
+</tbody>
+</table>
+
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
