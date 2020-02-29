@@ -36,7 +36,7 @@ Edge devices should be able to support multiple tenants or applications in the s
 
 Two example applications in the context of the issues described above, a smart toaster and a smart door lock, were presented in the paper. These two applications have different requirements in terms of bandwidth and latency. 
 
-My takeaway from this paper is that edge computing is very similar to cloud computing. One difference is that edge devices are resource-constrained compared to cloud servers. This makes it difficult to make these systems dependable. Another is that management is difficult to do because edge devices are heterogeneous and owned by different entities. 
+My takeaway from this paper is that edge computing is very similar to cloud computing. One difference is that edge devices are resource-constrained compared to cloud servers. This makes it difficult to make these systems dependable. Management is also a challenge  as edge devices are heterogeneous and owned by different entities.
 
 .. [BAGCHI2019] Saurabh Bagchi, Muhammad-Bilal Siddiqui, Paul Wood, and Heng Zhang. 2019. Dependability in edge computing. Commun. ACM 63, 1 (December 2019), 58–66. `DOI:https://doi.org/10.1145/3362068 <https://doi.org/10.1145/3362068>`_
   
