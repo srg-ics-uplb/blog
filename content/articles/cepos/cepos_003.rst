@@ -29,7 +29,9 @@ Team Eliens - Fried Chicken is composed of Mark Layones, Ethan Paguila, and Loui
 Team Eliens - Green is composed of Rene Jotham Culaway, Abigail Nadua, and Ryan Andrei Cruz, ranked 17th. 
 
 
-The overall champion came from Ateneo de Manila University (AdMU), followed by a team from UP Diliman, and then by another team from AdMU. The official final scoreboard is available at this `Facebook link`_. Team Eliens will continue their practice and training to prepare for their next competitive programming contest. 
+The overall champion came from Ateneo de Manila University (AdMU), followed by a team from UP Diliman, and then by another team from AdMU. The official final scoreboard is available at this `Facebook link`_. 
+
+Team Eliens would like to thank their *sponsors* from the Institute of Computer Science. The team will continue their practice and training to prepare for their next competitive programming contest. 
 	
 
 .. _Facebook link: https://www.facebook.com/story.php?story_fbid=3146368588708949&id=157306517615186&sfnsn=mo
