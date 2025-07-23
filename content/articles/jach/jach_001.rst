@@ -3,7 +3,7 @@ How to contribute to this blog (Long Method)
 
 :date: 2019-2-1
 :modified: 2019-3-5
-:category: HowTo's
+:category: How-To
 :author: Joseph Anthony C. Hermocilla
 
 
