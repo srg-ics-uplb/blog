@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets - How-To</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/how-to.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2019-03-05T00:00:00+08:00</updated><entry><title>How to contribute to this blog (Long Method)</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog-long-method.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog-long-method.html</id><summary type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv
+$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;source&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv/bin/activate
+$&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;ghp-import
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is accomplished in github and you must be logged in. You should have
+the repository under your account …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv
+$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;source&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv/bin/activate
+$&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;ghp-import
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is accomplished in github and you must be logged in. You should have
+the repository under your account after the fork.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Clone the repository from your account&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;https://github.com/&amp;lt;YOUR_USERNAME&amp;gt;/blog.git
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;3. Configure a remote for your fork&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;upstream&lt;span class="w"&gt; &lt;/span&gt;https://github.com/srg-ics-uplb/blog.git
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork"&gt;Help: Create a remote&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Sync your fork with the upstream&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;fetch&lt;span class="w"&gt; &lt;/span&gt;upstream
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;checkout&lt;span class="w"&gt; &lt;/span&gt;master
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;merge&lt;span class="w"&gt; &lt;/span&gt;upstream/master
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/syncing-a-fork"&gt;Help: Sync from upstream&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Create your blog entry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At this point you are ready to write your entries. Create your own directory inside
+content. You're going to place all your entries in this directory.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;mkdir&lt;span class="w"&gt; &lt;/span&gt;-p&lt;span class="w"&gt; &lt;/span&gt;content/articles/&amp;lt;YOUR_NICKNAME&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/articles/jach/jach_001.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If your entry has images, place them in the images directory,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Adding content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="./images/jach/srg.png" style="width: 60pt;" /&gt;
+</content><category term="How-To"></category></entry></feed>

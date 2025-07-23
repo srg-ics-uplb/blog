@@ -1,14 +1,310 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/all-en.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2020-02-27T00:00:00+08:00</updated><entry><title>Eliens on Algolympics 2020 Final Round</title><link href="https://srg-ics-uplb.github.io/blog/eliens-on-algolympics-2020-final-round.html" rel="alternate"></link><published>2020-02-27T00:00:00+08:00</published><updated>2020-02-27T00:00:00+08:00</updated><author><name>Clinton E. Poserio</name></author><id>tag:srg-ics-uplb.github.io,2020-02-27:/blog/eliens-on-algolympics-2020-final-round.html</id><summary type="html">&lt;p&gt;Three teams from UPLB participated in the recently concluded Algolympics 2020 Final Round last February 22, 2020. The final round is an &lt;em&gt;ACM ICPC-like&lt;/em&gt; contest wherein teams are given a set of programming problems to be solved in a given amount of time. Out of 19 participating teams from nine …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Three teams from UPLB participated in the recently concluded Algolympics 2020 Final Round last February 22, 2020. The final round is an &lt;em&gt;ACM ICPC-like&lt;/em&gt; contest wherein teams are given a set of programming problems to be solved in a given amount of time. Out of 19 participating teams from nine local universities, the three teams from Team Eliens ranked &lt;strong&gt;4th&lt;/strong&gt;, &lt;strong&gt;8th&lt;/strong&gt;, and &lt;strong&gt;17th&lt;/strong&gt; place. The three teams are as follows.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/all-en.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2025-07-23T00:00:00+08:00</updated><entry><title>Research Proposal Part 3: Writing the Aim, Objectives, and Methods</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html" rel="alternate"></link><published>2025-07-23T00:00:00+08:00</published><updated>2025-07-23T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-23:/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html</id><summary type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems and industry needs&lt;/a&gt;. The example identified a research gap in &lt;em&gt;developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters&lt;/em&gt;, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.&lt;/p&gt;
+&lt;p&gt;When crafting a research proposal for this gap, the Aim, Objectives, and Methods sections should clearly articulate the purpose, specific goals, and approach to addressing the problem. These sections must be concise, focused, and aligned with the identified gap, ensuring the research is feasible and impactful in the context of Computer Systems.&lt;/p&gt;
+&lt;div class="section" id="aim-aka-general-objective"&gt;
+&lt;h2&gt;1. Aim (aka General Objective)&lt;/h2&gt;
+&lt;p&gt;The Aim is a single, high-level statement that captures the overall purpose of the research. It should directly address the research gap and highlight the intended contribution to the field.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guidelines&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Be specific about the problem (inefficient scheduling in Kubernetes for heterogeneous ML clusters).&lt;/li&gt;
+&lt;li&gt;Emphasize the desired outcome (improved performance, resource utilization, or fairness).&lt;/li&gt;
+&lt;li&gt;Keep it concise (1–2 sentences) and avoid technical jargon to ensure clarity.&lt;/li&gt;
+&lt;li&gt;Align with the gap’s real-world relevance (e.g., supporting machine learning workloads).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example Aim&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The aim of this research is to develop a Kubernetes scheduler extension that optimizes pod placement for machine learning workloads on heterogeneous clusters, enhancing performance and resource utilization.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="specific-objectives"&gt;
+&lt;h2&gt;2. (Specific) Objectives&lt;/h2&gt;
+&lt;p&gt;The Objectives break down the aim into specific, measurable, and achievable goals. They should outline the key steps or outcomes needed to address the research gap.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guidelines&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Use actionable verbs (e.g., design, evaluate, implement) to describe what will be achieved.&lt;/li&gt;
+&lt;li&gt;Ensure objectives are SMART (Specific, Measurable, Achievable, Relevant, Time-bound).&lt;/li&gt;
+&lt;li&gt;Cover both technical (e.g., algorithm design) and evaluative (e.g., performance analysis) aspects.&lt;/li&gt;
+&lt;li&gt;Typically, include 3–5 objectives to keep the scope manageable.&lt;/li&gt;
+&lt;li&gt;Reflect the systems-specific context (e.g., handling GPUs/TPUs, improving ML workload efficiency).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example Objectives&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;em&gt;To design a scheduling algorithm that accounts for heterogeneous hardware (CPU, GPU, TPU) characteristics in Kubernetes clusters.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To implement the proposed scheduler extension as a pluggable module in the Kubernetes framework.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To evaluate the scheduler’s performance in terms of throughput, latency, and resource utilization for ML workloads compared to the default Kubernetes scheduler.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To assess the scheduler’s scalability and robustness under diverse ML workloads and cluster configurations.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="methods"&gt;
+&lt;h2&gt;3. Methods&lt;/h2&gt;
+&lt;p&gt;The Methods section describes the technical approach to achieving the objectives. It should provide a clear, logical plan for designing, implementing, and evaluating the solution, tailored to the Computer Systems domain.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guidelines&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Outline the key steps: algorithm design, implementation, experimentation, and evaluation.&lt;/li&gt;
+&lt;li&gt;Specify tools, platforms, or frameworks (e.g., Kubernetes, ML benchmarks like MLPerf).&lt;/li&gt;
+&lt;li&gt;Describe the experimental setup, including hardware (e.g., heterogeneous clusters) and metrics (e.g., throughput, latency).&lt;/li&gt;
+&lt;li&gt;Address how the methods tackle the gap (e.g., optimizing for heterogeneous hardware).&lt;/li&gt;
+&lt;li&gt;Ensure feasibility by leveraging existing tools and datasets where possible.&lt;/li&gt;
+&lt;li&gt;Include validation or comparison against baselines (e.g., default Kubernetes scheduler).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example Methods&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;To address the identified gap, the research will proceed as follows:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;em&gt;Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Implementation: Implement the scheduler as a custom Kubernetes scheduler extension using Go, integrated with the Kubernetes API. The extension will leverage kube-scheduler’s pluggable architecture to ensure compatibility with existing clusters.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Experimental Setup: Deploy a testbed cluster with mixed CPU (Intel Xeon), GPU (NVIDIA A100), and TPU (Google Cloud TPU v4) nodes using a cloud provider like Google Kubernetes Engine (GKE). Use ML workloads from MLPerf (e.g., ResNet, BERT) to simulate real-world scenarios.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Evaluation: Compare the proposed scheduler against the default Kubernetes scheduler and state-of-the-art alternatives (e.g., Volcano). Measure key metrics: (a) throughput (tasks completed per second), (b) latency (task completion time), (c) resource utilization (CPU/GPU/TPU usage), and (d) scheduling overhead. Conduct experiments under varying cluster sizes (4–16 nodes) and workload intensities.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Validation: Analyze results to confirm improvements in performance and scalability, and validate robustness by introducing synthetic failures (e.g., node crashes) to test fault tolerance.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="discussion"&gt;
+&lt;h3&gt;Discussion&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Aim&lt;/strong&gt;: The example aim is concise and directly targets the gap by focusing on optimizing Kubernetes scheduling for heterogeneous ML clusters. It emphasizes practical impact (performance, resource utilization), which is critical for industry adoption.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Objectives&lt;/strong&gt;: The objectives break the aim into actionable steps, covering design, implementation, and evaluation. They are specific (e.g., handling CPU/GPU/TPU) and measurable (e.g., throughput, latency), ensuring the research is focused and achievable within a typical systems project timeline.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Methods&lt;/strong&gt;: The methods provide a clear roadmap, leveraging existing tools (Kubernetes, MLPerf, GKE) to ensure feasibility. The experimental setup reflects real-world ML cluster scenarios, and the comparison with baselines (default scheduler, Volcano) strengthens the evaluation. The inclusion of fault tolerance testing aligns with systems research priorities like robustness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="acknowledgement"&gt;
+&lt;h3&gt;Acknowledgement&lt;/h3&gt;
+&lt;p&gt;This article was made with the help of Grok (accessed 2025-07-23)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Research"></category></entry><entry><title>Research Proposal Part 2: Writing the Problem Statement</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-2-writing-the-problem-statement.html" rel="alternate"></link><published>2025-07-22T00:00:00+08:00</published><updated>2025-07-22T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-22:/blog/research-proposal-part-2-writing-the-problem-statement.html</id><summary type="html">&lt;p&gt;Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach        5: Analyzing real-world systems and industry needs&lt;/a&gt;. The example identified a research gap in &lt;em&gt;developing …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach        5: Analyzing real-world systems and industry needs&lt;/a&gt;. The example identified a research gap in &lt;em&gt;developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-hea       vy clusters&lt;/em&gt;, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.&lt;/p&gt;
+&lt;div class="section" id="define-the-problem-clearly"&gt;
+&lt;h2&gt;1. Define the Problem Clearly&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;What is the issue?&lt;/strong&gt; Specify the core limitation or deficiency in existing systems (e.g., inefficient scheduling for heterogeneous ML clusters).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context&lt;/strong&gt;: Provide enough background to make the problem understandable to both experts and non-experts in Computer Systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scope&lt;/strong&gt;: Narrow the focus to the specific domain (Kubernetes, heterogeneous clusters, ML workloads) to avoid being overly broad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="highlight-the-impact"&gt;
+&lt;h2&gt;2. Highlight the Impact&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Why is it significant?&lt;/strong&gt; Explain the consequences of the gap (e.g., poor performance, wasted resources, limited scalability).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Who is affected?&lt;/strong&gt; Identify stakeholders (e.g., cloud providers, ML practitioners, DevOps engineers).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-world relevance&lt;/strong&gt;: Connect to practical scenarios, such as deploying ML models in production environments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="justify-the-need-for-a-solution"&gt;
+&lt;h2&gt;3. Justify the Need for a Solution&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Why hasn't it been solved?&lt;/strong&gt; Reference limitations in existing work (e.g., lack of hardware-aware scheduling, poor integration with Kubernetes).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Why now?&lt;/strong&gt; Emphasize current trends (e.g., increasing adoption of heterogeneous accelerators, growing demand for ML in cloud environments).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feasibility&lt;/strong&gt;: Suggest that the problem is tractable with current tools and expertise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="frame-as-a-research-problem"&gt;
+&lt;h2&gt;4. Frame as a Research Problem&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Structure&lt;/strong&gt;: Combine the issue, its impact, and the need for a solution into a concise statement (1-2 sentences).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tone&lt;/strong&gt;: Use precise, formal language suitable for a research proposal, avoiding vague terms like &amp;quot;better&amp;quot; or &amp;quot;improved&amp;quot; without context.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alignment&lt;/strong&gt;: Ensure the statement directly ties to the research gap and sets up the aim and objectives of your study.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="validate-the-statement"&gt;
+&lt;h2&gt;5. Validate the Statement&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Specificity&lt;/strong&gt;: Does it clearly address the gap (heterogeneous ML scheduling in Kubernetes)?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevance&lt;/strong&gt;: Does it connect to current challenges in Computer Systems?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Actionability&lt;/strong&gt;: Does it suggest a research direction (e.g., designing a new scheduler)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="example-problem-statement"&gt;
+&lt;h3&gt;Example Problem Statement&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;The default Kubernetes scheduler and existing alternatives, such as Volcano, lack fine-grained support for optimizing pod placement on heterogeneous clusters comprising CPUs, GPUs, and TPUs, resulting in suboptimal performance, resource underutilization, and limited scalability for machine learning workloads. As the adoption of heterogeneous accelerators and ML-driven applications grows in cloud environments, there is an urgent need for a Kubernetes-native scheduling solution that effectively leverages diverse hardware to meet the performance and efficiency demands of modern ML workflows.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="discussion-of-the-example"&gt;
+&lt;h3&gt;Discussion of the Example&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Clarity&lt;/strong&gt;: The problem statement specifies the issue (lack of fine-grained scheduling support for heterogeneous clusters) and the context (Kubernetes, ML workloads).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact&lt;/strong&gt;: It highlights consequences (suboptimal performance, resource underutilization, limited scalability) and stakeholders (cloud providers, ML practitioners).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Need&lt;/strong&gt;: It underscores the urgency due to trends (growing use of heterogeneous accelerators, ML adoption) and implies the gap is unaddressed by referencing limitations in existing schedulers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alignment with Gap&lt;/strong&gt;: The statement directly reflects the research gap, focusing on the need for a Kubernetes-native, hardware-aware scheduler for ML workloads.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research Framing&lt;/strong&gt;: It sets up the proposed research (a new scheduler) without prescribing the solution, leaving room for the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html"&gt;aim and objectives&lt;/a&gt; to elaborate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tips-for-computer-systems-context"&gt;
+&lt;h3&gt;Tips for Computer Systems Context&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Emphasize Systems Metrics&lt;/strong&gt;: Include terms like &amp;quot;performance,&amp;quot; &amp;quot;resource utilization,&amp;quot; or &amp;quot;scalability&amp;quot; to align with systems research priorities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ground in Practicality&lt;/strong&gt;: Reference real-world platforms (e.g., Kubernetes) and workloads (e.g., ML) to make the problem relevant to industry and academia.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leverage Trends&lt;/strong&gt;: Tie the problem to current technological shifts, such as the rise of TPUs or edge computing, to justify timeliness.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Concise&lt;/strong&gt;: Aim for 1-2 sentences to maintain focus, as seen in the example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html"&gt;Aims, Objectives, and Methods&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="acknowledgement"&gt;
+&lt;h3&gt;Acknowledgement&lt;/h3&gt;
+&lt;p&gt;This article was made with the help of Grok (accessed 2025-07-22)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Research"></category></entry><entry><title>Research Proposal Part 1: Finding and Identifying Research Gaps</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html" rel="alternate"></link><published>2025-07-21T00:00:00+08:00</published><updated>2025-07-21T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-21:/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html</id><summary type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 60%;" /&gt;
+&lt;p&gt;A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
+within a research area that has not been answered or addressed yet and thus have limited discussion in the
+literature. In this post, some approaches (with techniques and examples) to find and identify …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 60%;" /&gt;
+&lt;p&gt;A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
+within a research area that has not been answered or addressed yet and thus have limited discussion in the
+literature. In this post, some approaches (with techniques and examples) to find and identify research gaps in computer systems research are presented.&lt;/p&gt;
+&lt;div class="section" id="conduct-a-comprehensive-literature-review"&gt;
+&lt;h2&gt;1. Conduct a Comprehensive Literature Review&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Understand the state-of-the-art and identify areas that are underexplored or unresolved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Systematic Search&lt;/strong&gt;: Use academic databases like IEEE Xplore, ACM Digital Library, Springer, arXiv, and Google Scholar to search for recent papers, surveys, and reviews in your subfield (e.g., cloud computing, storage systems, or machine learning systems).&lt;ul&gt;
+&lt;li&gt;Use specific keywords (e.g., “energy-efficient computing,” “scalable distributed systems”) and combine them with Boolean operators (AND, OR, NOT) to refine results.&lt;/li&gt;
+&lt;li&gt;Filter for recent publications (last 3–5 years) to focus on current trends.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read Survey Papers and Reviews&lt;/strong&gt;: Surveys often summarize open challenges and future directions explicitly. For example, look for “Open Problems” or “Future Work” sections in journals like &lt;em&gt;ACM Computing Surveys&lt;/em&gt; or &lt;em&gt;IEEE Transactions&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analyze Highly Cited Papers&lt;/strong&gt;: Identify foundational papers and check their “Future Work” sections or limitations to uncover unresolved issues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Track Emerging Topics&lt;/strong&gt;: Monitor proceedings of top conferences (e.g., OSDI, SOSP, ASPLOS, ISCA, USENIX ATC) to spot new trends or areas with limited follow-up work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: While reviewing IEEE Xplore for papers on distributed storage systems, you find a 2024 survey in ACM Computing Surveys on “Next-Generation Storage Systems.” The survey highlights that current systems like Ceph and HDFS are optimized for large-scale cloud environments but lack efficient support for geo-distributed edge storage with intermittent connectivity. The “Future Work” section suggests exploring decentralized storage protocols for edge environments, but no follow-up papers address this. &lt;em&gt;Gap&lt;/em&gt;: Designing a distributed storage system tailored for edge devices with unreliable network conditions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Pay attention to performance bottlenecks, scalability limitations, or security vulnerabilities mentioned in system evaluations, as these often point to gaps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="identify-limitations-in-existing-work"&gt;
+&lt;h2&gt;2. Identify Limitations in Existing Work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Pinpoint weaknesses or constraints in current systems or methodologies that your research can address.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Scrutinize Evaluation Sections&lt;/strong&gt;: Look at how systems are evaluated (e.g., benchmarks, workloads, or metrics). Are there scenarios where the system underperforms?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Examine Assumptions&lt;/strong&gt;: Many systems papers make simplifying assumptions (e.g., homogeneous hardware, idealized network conditions). Gaps often exist where these assumptions don’t hold.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Check Scalability and Applicability&lt;/strong&gt;: Investigate if current solutions scale to emerging technologies or fail under new constraints.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Look for Trade-offs&lt;/strong&gt;: Gaps may lie in optimizing trade-offs or mitigating their downsides.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: A 2023 OSDI paper on a new memory management system for cloud servers assumes homogeneous memory latency across NUMA nodes. Its evaluation shows performance degradation when applied to disaggregated memory systems (e.g., where memory is accessed over a network). &lt;em&gt;Gap&lt;/em&gt;: Developing memory management techniques that optimize for disaggregated memory architectures with variable latency.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Focus on practical deployment gaps—e.g., systems that work well in labs but not in real-world environments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="engage-with-the-research-community"&gt;
+&lt;h2&gt;3. Engage with the Research Community&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Leverage discussions and feedback from experts to uncover less-visible gaps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Attend conferences and workshops (e.g., NSDI, EuroSys, HotOS).&lt;/li&gt;
+&lt;li&gt;Join mailing lists and forums (e.g., ACM SIGOPS or SIGARCH).&lt;/li&gt;
+&lt;li&gt;Collaborate and network with peers or practitioners.&lt;/li&gt;
+&lt;li&gt;Follow posts from researchers or organizations on platforms like X.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: At SOSP 2025, during a panel on “Systems for AI Workloads,” a researcher mentions that current GPU scheduling frameworks (e.g., NVIDIA’s MPS) struggle with dynamic multi-tenant AI workloads due to poor isolation and resource contention. No solutions are proposed in the discussion. &lt;em&gt;Gap&lt;/em&gt;: Creating a GPU scheduling framework that ensures strong isolation and fairness for multi-tenant AI inference in data centers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Collaborate with industry to find real-world deployment gaps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="explore-interdisciplinary-and-emerging-areas"&gt;
+&lt;h2&gt;4. Explore Interdisciplinary and Emerging Areas&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Identify gaps at the intersection of systems and other domains or new trends.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Analyze cross-disciplinary interactions (e.g., with ML, IoT, or crypto).&lt;/li&gt;
+&lt;li&gt;Monitor emerging technologies (e.g., TPUs, serverless, disaggregated memory).&lt;/li&gt;
+&lt;li&gt;Examine application domains (e.g., AR/VR, autonomous vehicles).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: While exploring the intersection of Computer Systems and quantum computing, you notice that existing operating systems lack support for scheduling hybrid classical-quantum workloads. Papers on quantum computing focus on algorithms but not on system-level integration with classical hardware. &lt;em&gt;Gap&lt;/em&gt;: Designing an operating system scheduler that optimizes resource allocation for hybrid quantum-classical computing environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Gaps often arise when adapting systems to new use cases or hardware.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="analyze-real-world-systems-and-industry-needs"&gt;
+&lt;h2&gt;5. Analyze Real-World Systems and Industry Needs&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Ground your research in real-world issues.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Study open-source systems and issues (e.g., Linux, Kubernetes).&lt;/li&gt;
+&lt;li&gt;Read technical industry reports (e.g., Spanner, DynamoDB).&lt;/li&gt;
+&lt;li&gt;Monitor news or posts about outages, bugs, or breaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Analyzing the Kubernetes GitHub issue tracker, you find multiple unresolved issues about inefficient pod scheduling on heterogeneous clusters with mixed CPU/GPU/TPU nodes. Users report suboptimal performance for machine learning workloads. &lt;em&gt;Gap&lt;/em&gt;: Developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Look for practical challenges like energy, cost, and maintainability.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="leverage-quantitative-and-qualitative-analysis"&gt;
+&lt;h2&gt;6. Leverage Quantitative and Qualitative Analysis&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Use structured methods to find gaps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Use SWOT or other gap analysis frameworks.&lt;/li&gt;
+&lt;li&gt;Build taxonomies of existing work.&lt;/li&gt;
+&lt;li&gt;Benchmark current systems.&lt;/li&gt;
+&lt;li&gt;Survey experts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: You create a taxonomy of existing fault-tolerance mechanisms in distributed systems (e.g., checkpointing, replication, erasure coding). You notice that most mechanisms are designed for crash failures but not for Byzantine failures in large-scale systems. A benchmark you run on Apache Spark reveals high overhead when handling Byzantine faults. &lt;em&gt;Gap&lt;/em&gt;: Designing lightweight Byzantine fault-tolerant protocols for large-scale distributed data processing systems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Quantitative analysis of metrics (e.g., latency, energy) can highlight performance gaps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="focus-on-future-work-and-open-questions"&gt;
+&lt;h2&gt;7. Focus on “Future Work” and Open Questions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Mine existing research for explicitly stated gaps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Collect “Future Work” sections across papers.&lt;/li&gt;
+&lt;li&gt;Look for speculative or abandoned ideas.&lt;/li&gt;
+&lt;li&gt;Find threads in older papers that remain unresolved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: A 2024 ASPLOS paper on serverless computing platforms notes that current platforms (e.g., AWS Lambda) struggle with cold-start latency for latency-sensitive applications like real-time video processing. The “Future Work” section suggests exploring predictive pre-warming but lacks implementation details. &lt;em&gt;Gap&lt;/em&gt;: Developing a predictive pre-warming mechanism to reduce cold-start latency in serverless platforms for real-time applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Common themes include scalability and portability issues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="experiment-and-prototype"&gt;
+&lt;h2&gt;8. Experiment and Prototype&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Use experimentation to uncover practical gaps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Build proof-of-concepts.&lt;/li&gt;
+&lt;li&gt;Stress-test existing systems.&lt;/li&gt;
+&lt;li&gt;Simulate future scenarios.&lt;/li&gt;
+&lt;li&gt;Reproduce prior work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: You prototype a distributed file system based on a recent NSDI paper and test it under high-latency network conditions (e.g., simulating 5G edge networks). The system exhibits significant performance degradation due to its reliance on synchronous replication. &lt;em&gt;Gap&lt;/em&gt;: Designing an asynchronous replication protocol that maintains consistency in high-latency edge environments.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Prototyping reveals practical limitations (e.g., complexity, compatibility).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stay-updated-with-real-time-information"&gt;
+&lt;h2&gt;9. Stay Updated with Real-Time Information&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Ensure your gap analysis is current.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Search X for discussions or trending research hashtags.&lt;/li&gt;
+&lt;li&gt;Monitor arXiv or preprint platforms.&lt;/li&gt;
+&lt;li&gt;Watch funding agency calls (e.g., NSF, DARPA).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: On X, a systems researcher (&amp;#64;SysProf2025) posts about a recent arXiv preprint on secure enclaves (e.g., Intel SGX, AMD SEV). The discussion highlights that enclaves are vulnerable to side-channel attacks in multi-tenant cloud environments, with no robust mitigation for dynamic workloads. &lt;em&gt;Gap&lt;/em&gt;: Developing a secure enclave framework that mitigates side-channel attacks in multi-tenant cloud settings.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Real-time debates can signal overhyped or unworkable approaches.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reflect-on-your-own-expertise-and-interests"&gt;
+&lt;h2&gt;10. Reflect on Your Own Expertise and Interests&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Match research gaps to your skills and interests.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Techniques&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Map your expertise and look for domain-specific gaps.&lt;/li&gt;
+&lt;li&gt;Brainstorm new applications for familiar techniques.&lt;/li&gt;
+&lt;li&gt;Revisit your own past work for extensions or limitations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: As an expert in computer architecture, you revisit your prior work on cache coherence protocols for multi-core CPUs. You realize that existing protocols are not optimized for emerging chiplet-based architectures, where cores are physically disaggregated. &lt;em&gt;Gap&lt;/em&gt;: Designing a cache coherence protocol tailored for chiplet-based processors to improve performance and energy efficiency.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip for Computer Systems&lt;/strong&gt;: Your unique viewpoint can spot overlooked gaps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="practical-steps-to-validate-a-research-gap"&gt;
+&lt;h2&gt;Practical Steps to Validate a Research Gap&lt;/h2&gt;
+&lt;p&gt;Once you identify a potential gap:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;Novelty Check&lt;/strong&gt;: Ensure no recent work has addressed it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impact Assessment&lt;/strong&gt;: Evaluate real-world or academic importance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feasibility Analysis&lt;/strong&gt;: Check tools, data, and time constraints.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Feedback&lt;/strong&gt;: Get input from peers and mentors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="final-tips"&gt;
+&lt;h2&gt;Final Tips&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Document Your Process&lt;/strong&gt;: Maintain a gap-tracking notebook or database.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Iterate Continuously&lt;/strong&gt;: Revisit gaps as literature and tech evolve.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Balance Novelty and Feasibility&lt;/strong&gt;: Choose problems that are new &lt;em&gt;and&lt;/em&gt; solvable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-2-writing-the-problem-statement.html"&gt;Problem Statement&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="acknowledgement"&gt;
+&lt;h2&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;This article was made with the help of Grok (accessed 2025-07-21)&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Research"></category></entry><entry><title>Eliens on Algolympics 2020 Final Round</title><link href="https://srg-ics-uplb.github.io/blog/eliens-on-algolympics-2020-final-round.html" rel="alternate"></link><published>2020-02-27T00:00:00+08:00</published><updated>2020-02-27T00:00:00+08:00</updated><author><name>Clinton E. Poserio</name></author><id>tag:srg-ics-uplb.github.io,2020-02-27:/blog/eliens-on-algolympics-2020-final-round.html</id><summary type="html">&lt;p&gt;Three teams from UPLB participated in the recently concluded Algolympics 2020 Final Round last February 22, 2020. The final round is an &lt;em&gt;ACM ICPC-like&lt;/em&gt; contest wherein teams are given a set of programming problems to be solved in a given amount of time. Out of 19 participating teams from nine …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Three teams from UPLB participated in the recently concluded Algolympics 2020 Final Round last February 22, 2020. The final round is an &lt;em&gt;ACM ICPC-like&lt;/em&gt; contest wherein teams are given a set of programming problems to be solved in a given amount of time. Out of 19 participating teams from nine local universities, the three teams from Team Eliens ranked &lt;strong&gt;4th&lt;/strong&gt;, &lt;strong&gt;8th&lt;/strong&gt;, and &lt;strong&gt;17th&lt;/strong&gt; place. The three teams are as follows.&lt;/p&gt;
 &lt;img alt="Team Eliens - sneilE" class="align-center" src="./images/cepos/003/eliens-sneile.jpg" style="width: 75%;" /&gt;
 &lt;p&gt;Team Eliens - sneilE is composed of John Alwin Pamintuan, Samuel Jade Ferrer, and Arvin Verain, ranked 4th.&lt;/p&gt;
 &lt;img alt="Team Eliens - Fried Chicken" class="align-center" src="./images/cepos/003/eliens-friedchicken.jpg" style="width: 75%;" /&gt;
-&lt;p&gt;Team Eliens - Fried Chicken is composed of Mark Layones, Ethan Paguila, and Louise Gabrielle Talip [&lt;a class="reference internal" href="#id1"&gt;1&lt;/a&gt;], ranked 8th.&lt;/p&gt;
+&lt;p&gt;Team Eliens - Fried Chicken is composed of Mark Layones, Ethan Paguila, and Louise Gabrielle Talip [&lt;a class="reference internal" href="#footnote-1"&gt;1&lt;/a&gt;], ranked 8th.&lt;/p&gt;
 &lt;img alt="Team Eliens - Green" class="align-center" src="./images/cepos/003/eliens-green.jpg" style="width: 75%;" /&gt;
 &lt;p&gt;Team Eliens - Green is composed of Rene Jotham Culaway, Abigail Nadua, and Ryan Andrei Cruz, ranked 17th.&lt;/p&gt;
 &lt;p&gt;The overall champion came from Ateneo de Manila University (AdMU), followed by a team from UP Diliman, and then by another team from AdMU. The official final scoreboard is available at this &lt;a class="reference external" href="https://www.facebook.com/story.php?story_fbid=3146368588708949&amp;amp;id=157306517615186&amp;amp;sfnsn=mo"&gt;Facebook link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Team Eliens would like to thank their &lt;em&gt;sponsors&lt;/em&gt; from the Institute of Computer Science. The team will continue their practice and training to prepare for their next competitive programming contest.&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id1" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;she had a prior (debate) contest to attend to; participated in the preliminary round.&lt;/td&gt;&lt;/tr&gt;
@@ -59,7 +355,7 @@
 &lt;p&gt;Tip: to easily get approved, use your UP mail and register via the UPLB network.&lt;/p&gt;
 </content><category term="News"></category></entry><entry><title>Eliens' First Quest of 2020: Algolympics</title><link href="https://srg-ics-uplb.github.io/blog/eliens-first-quest-of-2020-algolympics.html" rel="alternate"></link><published>2020-02-03T00:00:00+08:00</published><updated>2020-02-03T00:00:00+08:00</updated><author><name>Clinton E. Poserio</name></author><id>tag:srg-ics-uplb.github.io,2020-02-03:/blog/eliens-first-quest-of-2020-algolympics.html</id><summary type="html">&lt;p&gt;Eliens, the moniker of the UPLB Competitive Programming team, is back in action as they qualify for the Final Round of Algolympics 2020, a programming contest organized by &lt;a class="reference external" href="https://www.facebook.com/upacm/"&gt;ACM-UP Diliman Student Chapter, Inc.&lt;/a&gt;. Four teams from Eliens, with three individuals each, were formed and registered to the Online Elimination Round …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Eliens, the moniker of the UPLB Competitive Programming team, is back in action as they qualify for the Final Round of Algolympics 2020, a programming contest organized by &lt;a class="reference external" href="https://www.facebook.com/upacm/"&gt;ACM-UP Diliman Student Chapter, Inc.&lt;/a&gt;. Four teams from Eliens, with three individuals each, were formed and registered to the Online Elimination Round of Algolympics 2020 last January 17-27, 2020. The ten-day long contest was held on the &lt;a class="reference external" href="https://codeforces.com/group/fDKsZH3HKS/contest/266086/standings/groupmates/true"&gt;Codeforces&lt;/a&gt; platform, and was participated by 83 teams[1]_ from 20 different universities in the Philippines. However, only the top 20  teams  from all the participating teams and only the top three teams from each university are qualified to join the final round. With the skills of the participating students, all three slots for UPLB were filled; three teams from Eliens qualified to the Final Round of Algolympics 2020.&lt;/p&gt;
 &lt;p&gt;Keep posted as the Eliens, together with their coach, Clinton Poserio, prepares for the Final Round of Algolympics, which will be held on February 22, 2020 at the UP Alumni Engineers Centennial Hall, UP Diliman, Quezon City.&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id1" rules="none"&gt;
+&lt;table class="docutils footnote" frame="void" id="footnote-1" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[1]&lt;/td&gt;&lt;td&gt;there are two additional international teams.&lt;/td&gt;&lt;/tr&gt;
@@ -121,10 +417,10 @@ be to consider inter-VM communication in the methodology.&lt;/p&gt;
 &lt;/table&gt;
 </content><category term="Paper Review"></category></entry><entry><title>Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems</title><link href="https://srg-ics-uplb.github.io/blog/lock-unlock-is-that-all-a-pragmatic-analysis-of-locking-in-software-systems.html" rel="alternate"></link><published>2019-04-14T00:00:00+08:00</published><updated>2019-04-14T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-04-14:/blog/lock-unlock-is-that-all-a-pragmatic-analysis-of-locking-in-software-systems.html</id><summary type="html">&lt;p&gt;Most processors nowadays are multi-core processors to take advantage of parallel processing.
 Associated with parallel processing is the synchronization problem wherein locks are extensively
-used. This paper &lt;a class="citation-reference" href="#guerraoui2019" id="id1"&gt;[GUERRAOUI2019]&lt;/a&gt; argues that despite the large amount of available choices for
+used. This paper &lt;a class="citation-reference" href="#guerraoui2019" id="citation-reference-1"&gt;[GUERRAOUI2019]&lt;/a&gt; argues that despite the large amount of available choices for
 lock algorithms, developers do not have a comprehensive guide to select an …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Most processors nowadays are multi-core processors to take advantage of parallel processing.
 Associated with parallel processing is the synchronization problem wherein locks are extensively
-used. This paper &lt;a class="citation-reference" href="#guerraoui2019" id="id1"&gt;[GUERRAOUI2019]&lt;/a&gt; argues that despite the large amount of available choices for
+used. This paper &lt;a class="citation-reference" href="#guerraoui2019" id="citation-reference-1"&gt;[GUERRAOUI2019]&lt;/a&gt; argues that despite the large amount of available choices for
 lock algorithms, developers do not have a comprehensive guide to select an algorithm. The paper also
 asserts that most research on lock algorithms are limited to mutex locks and rarely consider other
 techniques like trylocks and condition variables. In addition, most evaluation of lock algorithms
@@ -156,12 +452,12 @@ the findings of the the study.&lt;/p&gt;
 &lt;table class="docutils citation" frame="void" id="guerraoui2019" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[GUERRAOUI2019]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Guerraoui, R., Guiroux, H., Lachaize, R., Quéma, V., &amp;amp; Trigonakis, V. (2019). Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems. ACM Transactions on Computer Systems, 36(1), 1–149. &lt;a class="reference external" href="https://doi.org/10.1145/3301501"&gt;https://doi.org/10.1145/3301501&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[GUERRAOUI2019]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Guerraoui, R., Guiroux, H., Lachaize, R., Quéma, V., &amp;amp; Trigonakis, V. (2019). Lock–Unlock: Is That All? A Pragmatic Analysis of Locking in Software Systems. ACM Transactions on Computer Systems, 36(1), 1–149. &lt;a class="reference external" href="https://doi.org/10.1145/3301501"&gt;https://doi.org/10.1145/3301501&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><category term="Paper Review"></category></entry><entry><title>Contiki - a Lightweight and Flexible Operating System for Tiny Networked Sensors</title><link href="https://srg-ics-uplb.github.io/blog/contiki-a-lightweight-and-flexible-operating-system-for-tiny-networked-sensors.html" rel="alternate"></link><published>2019-03-23T00:00:00+08:00</published><updated>2019-03-23T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-03-23:/blog/contiki-a-lightweight-and-flexible-operating-system-for-tiny-networked-sensors.html</id><summary type="html">&lt;p&gt;This paper &lt;a class="citation-reference" href="#dunkels2005" id="id1"&gt;[DUNKELS2005]&lt;/a&gt; describes the design and implementation of Contiki. The paper describes the characteristics of sensor
+</content><category term="Paper Review"></category></entry><entry><title>Contiki - a Lightweight and Flexible Operating System for Tiny Networked Sensors</title><link href="https://srg-ics-uplb.github.io/blog/contiki-a-lightweight-and-flexible-operating-system-for-tiny-networked-sensors.html" rel="alternate"></link><published>2019-03-23T00:00:00+08:00</published><updated>2019-03-23T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-03-23:/blog/contiki-a-lightweight-and-flexible-operating-system-for-tiny-networked-sensors.html</id><summary type="html">&lt;p&gt;This paper &lt;a class="citation-reference" href="#dunkels2005" id="citation-reference-1"&gt;[DUNKELS2005]&lt;/a&gt; describes the design and implementation of Contiki. The paper describes the characteristics of sensor
 networks and its special requirements. These special requirements were considered in Contiki's design. For example,
-nodes in sensor networks are tiny and limited in processing power and memory. Thus, Contiki should be able …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This paper &lt;a class="citation-reference" href="#dunkels2005" id="id1"&gt;[DUNKELS2005]&lt;/a&gt; describes the design and implementation of Contiki. The paper describes the characteristics of sensor
+nodes in sensor networks are tiny and limited in processing power and memory. Thus, Contiki should be able …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This paper &lt;a class="citation-reference" href="#dunkels2005" id="citation-reference-1"&gt;[DUNKELS2005]&lt;/a&gt; describes the design and implementation of Contiki. The paper describes the characteristics of sensor
 networks and its special requirements. These special requirements were considered in Contiki's design. For example,
 nodes in sensor networks are tiny and limited in processing power and memory. Thus, Contiki should be able to
 run on these devices. Contiki is an event-driven operating system which means that it responds when an event happens.
@@ -169,7 +465,7 @@ The main components of Contiki are the kernel, libraries, program loader, and a 
 &lt;table class="docutils citation" frame="void" id="dunkels2005" rules="none"&gt;
 &lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
 &lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[DUNKELS2005]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;ol class="first last upperalpha simple"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#citation-reference-1"&gt;[DUNKELS2005]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;ol class="first last upperalpha simple"&gt;
 &lt;li&gt;Dunkels, B. Gronvall, and T. Voigt, “Contiki - a lightweight and flexible operating system for tiny networked sensors,” in 29th Annual IEEE International Conference on Local Computer Networks, 2004, pp. 455–462.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/td&gt;&lt;/tr&gt;
@@ -210,42 +506,42 @@ create the file there.&lt;/p&gt;
 &lt;p&gt;If your article is ready to be published, make a pull request.&lt;/p&gt;
 </content><category term="HowTo's"></category></entry><entry><title>How to contribute to this blog (Long Method)</title><link href="https://srg-ics-uplb.github.io/blog/how-to-contribute-to-this-blog-long-method.html" rel="alternate"></link><published>2019-02-01T00:00:00+08:00</published><updated>2019-03-05T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2019-02-01:/blog/how-to-contribute-to-this-blog-long-method.html</id><summary type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv pelican-blog-venv
-$ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
-$ pip install pelican markdown ghp-import
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv
+$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;source&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv/bin/activate
+$&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;ghp-import
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This is accomplished in github and you must be logged in. You should have
 the repository under your account …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Contributions are encouraged from SRG members.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Set up the development environment&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ virtualenv pelican-blog-venv
-$ &lt;span class="nb"&gt;source&lt;/span&gt; pelican-blog-venv/bin/activate
-$ pip install pelican markdown ghp-import
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv
+$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;source&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;pelican-blog-venv/bin/activate
+$&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;ghp-import
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;2. Fork the original repository&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/blog"&gt;SRG Blog Repository&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This is accomplished in github and you must be logged in. You should have
 the repository under your account after the fork.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3. Clone the repository from your account&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git clone https://github.com/&amp;lt;YOUR_USERNAME&amp;gt;/blog.git
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;https://github.com/&amp;lt;YOUR_USERNAME&amp;gt;/blog.git
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;3. Configure a remote for your fork&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git remote -v
-$ git remote add upstream https://github.com/srg-ics-uplb/blog.git
-$ git remote -v
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;upstream&lt;span class="w"&gt; &lt;/span&gt;https://github.com/srg-ics-uplb/blog.git
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork"&gt;Help: Create a remote&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4. Sync your fork with the upstream&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git fetch upstream
-$ git checkout master
-$ git merge upstream/master
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;fetch&lt;span class="w"&gt; &lt;/span&gt;upstream
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;checkout&lt;span class="w"&gt; &lt;/span&gt;master
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;merge&lt;span class="w"&gt; &lt;/span&gt;upstream/master
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://help.github.com/en/articles/syncing-a-fork"&gt;Help: Sync from upstream&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;5. Create your blog entry&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;At this point you are ready to write your entries. Create your own directory inside
 content. You're going to place all your entries in this directory.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkdir -p content/&amp;lt;YOUR_NICKNAME&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;mkdir&lt;span class="w"&gt; &lt;/span&gt;-p&lt;span class="w"&gt; &lt;/span&gt;content/articles/&amp;lt;YOUR_NICKNAME&amp;gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For example, the source for this entry is &lt;a class="reference external" href="https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/articles/jach/jach_001.rst"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If your entry has images, place them in the images directory,&lt;/p&gt;
@@ -255,4 +551,4 @@ content. You're going to place all your entries in this directory.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst"&gt;More on RST Syntax&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img alt="" src="./images/jach/srg.png" style="width: 60pt;" /&gt;
-</content><category term="HowTo's"></category></entry></feed>
+</content><category term="How-To"></category></entry></feed>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Research Proposal Part 2: Writing the Problem Statement | Lost Packets
+</title>
+  <link rel="canonical" href="./research-proposal-part-2-writing-the-problem-statement.html">
+
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" title="Full Atom Feed">
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/{slug}.atom.xml" title="Categories Atom Feed">
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from Approach 5: Analyzing real-world systems and industry needs. The example identified a research gap in developing …">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Lost Packets</a></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>Research Proposal Part 2: Writing the Problem Statement
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2025-07-22T00:00:00+08:00">
+        <i class="fa fa-clock-o"></i>
+        Tue 22 July 2025
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/research.html">Research</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/joseph-anthony-c-hermocilla.html">Joseph Anthony C. Hermocilla</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <p>Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from <a class="reference external" href="./research-proposal-part-1-finding-and-identifying-research-gaps.html">Approach        5: Analyzing real-world systems and industry needs</a>. The example identified a research gap in <em>developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-hea       vy clusters</em>, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.</p>
+<div class="section" id="define-the-problem-clearly">
+<h2>1. Define the Problem Clearly</h2>
+<ul class="simple">
+<li><strong>What is the issue?</strong> Specify the core limitation or deficiency in existing systems (e.g., inefficient scheduling for heterogeneous ML clusters).</li>
+<li><strong>Context</strong>: Provide enough background to make the problem understandable to both experts and non-experts in Computer Systems.</li>
+<li><strong>Scope</strong>: Narrow the focus to the specific domain (Kubernetes, heterogeneous clusters, ML workloads) to avoid being overly broad.</li>
+</ul>
+</div>
+<div class="section" id="highlight-the-impact">
+<h2>2. Highlight the Impact</h2>
+<ul class="simple">
+<li><strong>Why is it significant?</strong> Explain the consequences of the gap (e.g., poor performance, wasted resources, limited scalability).</li>
+<li><strong>Who is affected?</strong> Identify stakeholders (e.g., cloud providers, ML practitioners, DevOps engineers).</li>
+<li><strong>Real-world relevance</strong>: Connect to practical scenarios, such as deploying ML models in production environments.</li>
+</ul>
+</div>
+<div class="section" id="justify-the-need-for-a-solution">
+<h2>3. Justify the Need for a Solution</h2>
+<ul class="simple">
+<li><strong>Why hasn't it been solved?</strong> Reference limitations in existing work (e.g., lack of hardware-aware scheduling, poor integration with Kubernetes).</li>
+<li><strong>Why now?</strong> Emphasize current trends (e.g., increasing adoption of heterogeneous accelerators, growing demand for ML in cloud environments).</li>
+<li><strong>Feasibility</strong>: Suggest that the problem is tractable with current tools and expertise.</li>
+</ul>
+</div>
+<div class="section" id="frame-as-a-research-problem">
+<h2>4. Frame as a Research Problem</h2>
+<ul class="simple">
+<li><strong>Structure</strong>: Combine the issue, its impact, and the need for a solution into a concise statement (1-2 sentences).</li>
+<li><strong>Tone</strong>: Use precise, formal language suitable for a research proposal, avoiding vague terms like &quot;better&quot; or &quot;improved&quot; without context.</li>
+<li><strong>Alignment</strong>: Ensure the statement directly ties to the research gap and sets up the aim and objectives of your study.</li>
+</ul>
+</div>
+<div class="section" id="validate-the-statement">
+<h2>5. Validate the Statement</h2>
+<ul class="simple">
+<li><strong>Specificity</strong>: Does it clearly address the gap (heterogeneous ML scheduling in Kubernetes)?</li>
+<li><strong>Relevance</strong>: Does it connect to current challenges in Computer Systems?</li>
+<li><strong>Actionability</strong>: Does it suggest a research direction (e.g., designing a new scheduler)?</li>
+</ul>
+<div class="section" id="example-problem-statement">
+<h3>Example Problem Statement</h3>
+<p><em>&quot;The default Kubernetes scheduler and existing alternatives, such as Volcano, lack fine-grained support for optimizing pod placement on heterogeneous clusters comprising CPUs, GPUs, and TPUs, resulting in suboptimal performance, resource underutilization, and limited scalability for machine learning workloads. As the adoption of heterogeneous accelerators and ML-driven applications grows in cloud environments, there is an urgent need for a Kubernetes-native scheduling solution that effectively leverages diverse hardware to meet the performance and efficiency demands of modern ML workflows.&quot;</em></p>
+</div>
+<div class="section" id="discussion-of-the-example">
+<h3>Discussion of the Example</h3>
+<ul class="simple">
+<li><strong>Clarity</strong>: The problem statement specifies the issue (lack of fine-grained scheduling support for heterogeneous clusters) and the context (Kubernetes, ML workloads).</li>
+<li><strong>Impact</strong>: It highlights consequences (suboptimal performance, resource underutilization, limited scalability) and stakeholders (cloud providers, ML practitioners).</li>
+<li><strong>Need</strong>: It underscores the urgency due to trends (growing use of heterogeneous accelerators, ML adoption) and implies the gap is unaddressed by referencing limitations in existing schedulers.</li>
+<li><strong>Alignment with Gap</strong>: The statement directly reflects the research gap, focusing on the need for a Kubernetes-native, hardware-aware scheduler for ML workloads.</li>
+<li><strong>Research Framing</strong>: It sets up the proposed research (a new scheduler) without prescribing the solution, leaving room for the <a class="reference external" href="./research-proposal-part-3-writing-the-aim-objectives-and-methods.html">aim and objectives</a> to elaborate.</li>
+</ul>
+</div>
+<div class="section" id="tips-for-computer-systems-context">
+<h3>Tips for Computer Systems Context</h3>
+<ul class="simple">
+<li><strong>Emphasize Systems Metrics</strong>: Include terms like &quot;performance,&quot; &quot;resource utilization,&quot; or &quot;scalability&quot; to align with systems research priorities.</li>
+<li><strong>Ground in Practicality</strong>: Reference real-world platforms (e.g., Kubernetes) and workloads (e.g., ML) to make the problem relevant to industry and academia.</li>
+<li><strong>Leverage Trends</strong>: Tie the problem to current technological shifts, such as the rise of TPUs or edge computing, to justify timeliness.</li>
+<li><strong>Be Concise</strong>: Aim for 1-2 sentences to maintain focus, as seen in the example.</li>
+</ul>
+<p>The next post will focus on the <a class="reference external" href="./research-proposal-part-3-writing-the-aim-objectives-and-methods.html">Aims, Objectives, and Methods</a>.</p>
+</div>
+<div class="section" id="acknowledgement">
+<h3>Acknowledgement</h3>
+<p>This article was made with the help of Grok (accessed 2025-07-22)</p>
+</div>
+</div>
+
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

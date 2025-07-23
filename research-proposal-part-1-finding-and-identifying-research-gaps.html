@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Research Proposal Part 1: Finding and Identifying Research Gaps | Lost Packets
+</title>
+  <link rel="canonical" href="./research-proposal-part-1-finding-and-identifying-research-gaps.html">
+
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" title="Full Atom Feed">
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/{slug}.atom.xml" title="Categories Atom Feed">
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach) within a research area that has not been answered or addressed yet and thus have limited discussion in the literature. In this post, some approaches (with techniques and examples) to find and identify …">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Lost Packets</a></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>Research Proposal Part 1: Finding and Identifying Research Gaps
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2025-07-21T00:00:00+08:00">
+        <i class="fa fa-clock-o"></i>
+        Mon 21 July 2025
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/research.html">Research</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/joseph-anthony-c-hermocilla.html">Joseph Anthony C. Hermocilla</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 60%;" />
+<p>A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
+within a research area that has not been answered or addressed yet and thus have limited discussion in the
+literature. In this post, some approaches (with techniques and examples) to find and identify research gaps in computer systems research are presented.</p>
+<div class="section" id="conduct-a-comprehensive-literature-review">
+<h2>1. Conduct a Comprehensive Literature Review</h2>
+<p><strong>Purpose</strong>: Understand the state-of-the-art and identify areas that are underexplored or unresolved.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li><strong>Systematic Search</strong>: Use academic databases like IEEE Xplore, ACM Digital Library, Springer, arXiv, and Google Scholar to search for recent papers, surveys, and reviews in your subfield (e.g., cloud computing, storage systems, or machine learning systems).<ul>
+<li>Use specific keywords (e.g., “energy-efficient computing,” “scalable distributed systems”) and combine them with Boolean operators (AND, OR, NOT) to refine results.</li>
+<li>Filter for recent publications (last 3–5 years) to focus on current trends.</li>
+</ul>
+</li>
+<li><strong>Read Survey Papers and Reviews</strong>: Surveys often summarize open challenges and future directions explicitly. For example, look for “Open Problems” or “Future Work” sections in journals like <em>ACM Computing Surveys</em> or <em>IEEE Transactions</em>.</li>
+<li><strong>Analyze Highly Cited Papers</strong>: Identify foundational papers and check their “Future Work” sections or limitations to uncover unresolved issues.</li>
+<li><strong>Track Emerging Topics</strong>: Monitor proceedings of top conferences (e.g., OSDI, SOSP, ASPLOS, ISCA, USENIX ATC) to spot new trends or areas with limited follow-up work.</li>
+</ul>
+<p><strong>Example</strong>: While reviewing IEEE Xplore for papers on distributed storage systems, you find a 2024 survey in ACM Computing Surveys on “Next-Generation Storage Systems.” The survey highlights that current systems like Ceph and HDFS are optimized for large-scale cloud environments but lack efficient support for geo-distributed edge storage with intermittent connectivity. The “Future Work” section suggests exploring decentralized storage protocols for edge environments, but no follow-up papers address this. <em>Gap</em>: Designing a distributed storage system tailored for edge devices with unreliable network conditions.</p>
+<p><strong>Tip for Computer Systems</strong>: Pay attention to performance bottlenecks, scalability limitations, or security vulnerabilities mentioned in system evaluations, as these often point to gaps.</p>
+</div>
+<div class="section" id="identify-limitations-in-existing-work">
+<h2>2. Identify Limitations in Existing Work</h2>
+<p><strong>Purpose</strong>: Pinpoint weaknesses or constraints in current systems or methodologies that your research can address.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li><strong>Scrutinize Evaluation Sections</strong>: Look at how systems are evaluated (e.g., benchmarks, workloads, or metrics). Are there scenarios where the system underperforms?</li>
+<li><strong>Examine Assumptions</strong>: Many systems papers make simplifying assumptions (e.g., homogeneous hardware, idealized network conditions). Gaps often exist where these assumptions don’t hold.</li>
+<li><strong>Check Scalability and Applicability</strong>: Investigate if current solutions scale to emerging technologies or fail under new constraints.</li>
+<li><strong>Look for Trade-offs</strong>: Gaps may lie in optimizing trade-offs or mitigating their downsides.</li>
+</ul>
+<p><strong>Example</strong>: A 2023 OSDI paper on a new memory management system for cloud servers assumes homogeneous memory latency across NUMA nodes. Its evaluation shows performance degradation when applied to disaggregated memory systems (e.g., where memory is accessed over a network). <em>Gap</em>: Developing memory management techniques that optimize for disaggregated memory architectures with variable latency.</p>
+<p><strong>Tip for Computer Systems</strong>: Focus on practical deployment gaps—e.g., systems that work well in labs but not in real-world environments.</p>
+</div>
+<div class="section" id="engage-with-the-research-community">
+<h2>3. Engage with the Research Community</h2>
+<p><strong>Purpose</strong>: Leverage discussions and feedback from experts to uncover less-visible gaps.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Attend conferences and workshops (e.g., NSDI, EuroSys, HotOS).</li>
+<li>Join mailing lists and forums (e.g., ACM SIGOPS or SIGARCH).</li>
+<li>Collaborate and network with peers or practitioners.</li>
+<li>Follow posts from researchers or organizations on platforms like X.</li>
+</ul>
+<p><strong>Example</strong>: At SOSP 2025, during a panel on “Systems for AI Workloads,” a researcher mentions that current GPU scheduling frameworks (e.g., NVIDIA’s MPS) struggle with dynamic multi-tenant AI workloads due to poor isolation and resource contention. No solutions are proposed in the discussion. <em>Gap</em>: Creating a GPU scheduling framework that ensures strong isolation and fairness for multi-tenant AI inference in data centers.</p>
+<p><strong>Tip for Computer Systems</strong>: Collaborate with industry to find real-world deployment gaps.</p>
+</div>
+<div class="section" id="explore-interdisciplinary-and-emerging-areas">
+<h2>4. Explore Interdisciplinary and Emerging Areas</h2>
+<p><strong>Purpose</strong>: Identify gaps at the intersection of systems and other domains or new trends.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Analyze cross-disciplinary interactions (e.g., with ML, IoT, or crypto).</li>
+<li>Monitor emerging technologies (e.g., TPUs, serverless, disaggregated memory).</li>
+<li>Examine application domains (e.g., AR/VR, autonomous vehicles).</li>
+</ul>
+<p><strong>Example</strong>: While exploring the intersection of Computer Systems and quantum computing, you notice that existing operating systems lack support for scheduling hybrid classical-quantum workloads. Papers on quantum computing focus on algorithms but not on system-level integration with classical hardware. <em>Gap</em>: Designing an operating system scheduler that optimizes resource allocation for hybrid quantum-classical computing environments.</p>
+<p><strong>Tip for Computer Systems</strong>: Gaps often arise when adapting systems to new use cases or hardware.</p>
+</div>
+<div class="section" id="analyze-real-world-systems-and-industry-needs">
+<h2>5. Analyze Real-World Systems and Industry Needs</h2>
+<p><strong>Purpose</strong>: Ground your research in real-world issues.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Study open-source systems and issues (e.g., Linux, Kubernetes).</li>
+<li>Read technical industry reports (e.g., Spanner, DynamoDB).</li>
+<li>Monitor news or posts about outages, bugs, or breaches.</li>
+</ul>
+<p><strong>Example</strong>: Analyzing the Kubernetes GitHub issue tracker, you find multiple unresolved issues about inefficient pod scheduling on heterogeneous clusters with mixed CPU/GPU/TPU nodes. Users report suboptimal performance for machine learning workloads. <em>Gap</em>: Developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters.</p>
+<p><strong>Tip for Computer Systems</strong>: Look for practical challenges like energy, cost, and maintainability.</p>
+</div>
+<div class="section" id="leverage-quantitative-and-qualitative-analysis">
+<h2>6. Leverage Quantitative and Qualitative Analysis</h2>
+<p><strong>Purpose</strong>: Use structured methods to find gaps.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Use SWOT or other gap analysis frameworks.</li>
+<li>Build taxonomies of existing work.</li>
+<li>Benchmark current systems.</li>
+<li>Survey experts.</li>
+</ul>
+<p><strong>Example</strong>: You create a taxonomy of existing fault-tolerance mechanisms in distributed systems (e.g., checkpointing, replication, erasure coding). You notice that most mechanisms are designed for crash failures but not for Byzantine failures in large-scale systems. A benchmark you run on Apache Spark reveals high overhead when handling Byzantine faults. <em>Gap</em>: Designing lightweight Byzantine fault-tolerant protocols for large-scale distributed data processing systems.</p>
+<p><strong>Tip for Computer Systems</strong>: Quantitative analysis of metrics (e.g., latency, energy) can highlight performance gaps.</p>
+</div>
+<div class="section" id="focus-on-future-work-and-open-questions">
+<h2>7. Focus on “Future Work” and Open Questions</h2>
+<p><strong>Purpose</strong>: Mine existing research for explicitly stated gaps.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Collect “Future Work” sections across papers.</li>
+<li>Look for speculative or abandoned ideas.</li>
+<li>Find threads in older papers that remain unresolved.</li>
+</ul>
+<p><strong>Example</strong>: A 2024 ASPLOS paper on serverless computing platforms notes that current platforms (e.g., AWS Lambda) struggle with cold-start latency for latency-sensitive applications like real-time video processing. The “Future Work” section suggests exploring predictive pre-warming but lacks implementation details. <em>Gap</em>: Developing a predictive pre-warming mechanism to reduce cold-start latency in serverless platforms for real-time applications.</p>
+<p><strong>Tip for Computer Systems</strong>: Common themes include scalability and portability issues.</p>
+</div>
+<div class="section" id="experiment-and-prototype">
+<h2>8. Experiment and Prototype</h2>
+<p><strong>Purpose</strong>: Use experimentation to uncover practical gaps.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Build proof-of-concepts.</li>
+<li>Stress-test existing systems.</li>
+<li>Simulate future scenarios.</li>
+<li>Reproduce prior work.</li>
+</ul>
+<p><strong>Example</strong>: You prototype a distributed file system based on a recent NSDI paper and test it under high-latency network conditions (e.g., simulating 5G edge networks). The system exhibits significant performance degradation due to its reliance on synchronous replication. <em>Gap</em>: Designing an asynchronous replication protocol that maintains consistency in high-latency edge environments.</p>
+<p><strong>Tip for Computer Systems</strong>: Prototyping reveals practical limitations (e.g., complexity, compatibility).</p>
+</div>
+<div class="section" id="stay-updated-with-real-time-information">
+<h2>9. Stay Updated with Real-Time Information</h2>
+<p><strong>Purpose</strong>: Ensure your gap analysis is current.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Search X for discussions or trending research hashtags.</li>
+<li>Monitor arXiv or preprint platforms.</li>
+<li>Watch funding agency calls (e.g., NSF, DARPA).</li>
+</ul>
+<p><strong>Example</strong>: On X, a systems researcher (&#64;SysProf2025) posts about a recent arXiv preprint on secure enclaves (e.g., Intel SGX, AMD SEV). The discussion highlights that enclaves are vulnerable to side-channel attacks in multi-tenant cloud environments, with no robust mitigation for dynamic workloads. <em>Gap</em>: Developing a secure enclave framework that mitigates side-channel attacks in multi-tenant cloud settings.</p>
+<p><strong>Tip for Computer Systems</strong>: Real-time debates can signal overhyped or unworkable approaches.</p>
+</div>
+<div class="section" id="reflect-on-your-own-expertise-and-interests">
+<h2>10. Reflect on Your Own Expertise and Interests</h2>
+<p><strong>Purpose</strong>: Match research gaps to your skills and interests.</p>
+<p><strong>Techniques</strong>:</p>
+<ul class="simple">
+<li>Map your expertise and look for domain-specific gaps.</li>
+<li>Brainstorm new applications for familiar techniques.</li>
+<li>Revisit your own past work for extensions or limitations.</li>
+</ul>
+<p><strong>Example</strong>: As an expert in computer architecture, you revisit your prior work on cache coherence protocols for multi-core CPUs. You realize that existing protocols are not optimized for emerging chiplet-based architectures, where cores are physically disaggregated. <em>Gap</em>: Designing a cache coherence protocol tailored for chiplet-based processors to improve performance and energy efficiency.</p>
+<p><strong>Tip for Computer Systems</strong>: Your unique viewpoint can spot overlooked gaps.</p>
+</div>
+<div class="section" id="practical-steps-to-validate-a-research-gap">
+<h2>Practical Steps to Validate a Research Gap</h2>
+<p>Once you identify a potential gap:</p>
+<ol class="arabic simple">
+<li><strong>Novelty Check</strong>: Ensure no recent work has addressed it.</li>
+<li><strong>Impact Assessment</strong>: Evaluate real-world or academic importance.</li>
+<li><strong>Feasibility Analysis</strong>: Check tools, data, and time constraints.</li>
+<li><strong>Community Feedback</strong>: Get input from peers and mentors.</li>
+</ol>
+</div>
+<div class="section" id="final-tips">
+<h2>Final Tips</h2>
+<ul class="simple">
+<li><strong>Document Your Process</strong>: Maintain a gap-tracking notebook or database.</li>
+<li><strong>Iterate Continuously</strong>: Revisit gaps as literature and tech evolve.</li>
+<li><strong>Balance Novelty and Feasibility</strong>: Choose problems that are new <em>and</em> solvable.</li>
+</ul>
+<p>The next post will focus on the <a class="reference external" href="./research-proposal-part-2-writing-the-problem-statement.html">Problem Statement</a>.</p>
+</div>
+<div class="section" id="acknowledgement">
+<h2>Acknowledgement</h2>
+<p>This article was made with the help of Grok (accessed 2025-07-21)</p>
+</div>
+
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

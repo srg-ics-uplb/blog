@@ -49,7 +49,7 @@
       </li>
       <li class="list-inline-item">
         <i class="fa fa-folder-open-o"></i>
-        <a href="./category/howtos.html">HowTo's</a>
+        <a href="./category/how-to.html">How-To</a>
       </li>
       <li class="list-inline-item">
         <i class="fa fa-user-o"></i>
@@ -59,33 +59,33 @@
   <div class="content">
     <p>Contributions are encouraged from SRG members.</p>
 <p><strong>1. Set up the development environment</strong></p>
-<div class="highlight"><pre><span></span>$ virtualenv pelican-blog-venv
-$ <span class="nb">source</span> pelican-blog-venv/bin/activate
-$ pip install pelican markdown ghp-import
+<div class="highlight"><pre><span></span>$<span class="w"> </span>virtualenv<span class="w"> </span>pelican-blog-venv
+$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>pelican-blog-venv/bin/activate
+$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pelican<span class="w"> </span>markdown<span class="w"> </span>ghp-import
 </pre></div>
 <p><strong>2. Fork the original repository</strong></p>
 <p><a class="reference external" href="https://github.com/srg-ics-uplb/blog">SRG Blog Repository</a></p>
 <p>This is accomplished in github and you must be logged in. You should have
 the repository under your account after the fork.</p>
 <p><strong>3. Clone the repository from your account</strong></p>
-<div class="highlight"><pre><span></span>$ git clone https://github.com/&lt;YOUR_USERNAME&gt;/blog.git
+<div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/&lt;YOUR_USERNAME&gt;/blog.git
 </pre></div>
 <p><strong>3. Configure a remote for your fork</strong></p>
-<div class="highlight"><pre><span></span>$ git remote -v
-$ git remote add upstream https://github.com/srg-ics-uplb/blog.git
-$ git remote -v
+<div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>-v
+$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>https://github.com/srg-ics-uplb/blog.git
+$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>-v
 </pre></div>
 <p><a class="reference external" href="https://help.github.com/en/articles/configuring-a-remote-for-a-fork">Help: Create a remote</a></p>
 <p><strong>4. Sync your fork with the upstream</strong></p>
-<div class="highlight"><pre><span></span>$ git fetch upstream
-$ git checkout master
-$ git merge upstream/master
+<div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>fetch<span class="w"> </span>upstream
+$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span>master
+$<span class="w"> </span>git<span class="w"> </span>merge<span class="w"> </span>upstream/master
 </pre></div>
 <p><a class="reference external" href="https://help.github.com/en/articles/syncing-a-fork">Help: Sync from upstream</a></p>
 <p><strong>5. Create your blog entry</strong></p>
 <p>At this point you are ready to write your entries. Create your own directory inside
 content. You're going to place all your entries in this directory.</p>
-<div class="highlight"><pre><span></span>$ mkdir -p content/&lt;YOUR_NICKNAME&gt;
+<div class="highlight"><pre><span></span>$<span class="w"> </span>mkdir<span class="w"> </span>-p<span class="w"> </span>content/articles/&lt;YOUR_NICKNAME&gt;
 </pre></div>
 <p>For example, the source for this entry is <a class="reference external" href="https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/articles/jach/jach_001.rst">here</a>.</p>
 <p>If your entry has images, place them in the images directory,</p>
