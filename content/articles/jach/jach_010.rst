@@ -2,7 +2,7 @@ Research Proposal Part 3: Writing the Aim, Objectives, and Methods
 ##################################################################
 
 :date: 2025-07-23
-:category: Research, Proposal
+:category: Research
 :author: Joseph Anthony C. Hermocilla
 
 Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from `Approach 5: Analyzing real-world systems and industry needs <{filename}/articles/jach/jach_008.rst>`_. The example identified a research gap in *developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters*, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.

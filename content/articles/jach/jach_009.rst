@@ -2,7 +2,7 @@ Research Proposal Part 2: Writing the Problem Statement
 #######################################################
 
 :date: 2025-07-22
-:category: Research, Proposal
+:category: Research
 :author: Joseph Anthony C. Hermocilla
 
 
@@ -65,6 +65,8 @@ Tips for Computer Systems Context
 - **Leverage Trends**: Tie the problem to current technological shifts, such as the rise of TPUs or edge computing, to justify timeliness.
 - **Be Concise**: Aim for 1-2 sentences to maintain focus, as seen in the example.
 
+
+The next post will focus on the `Aims, Objectives, and Methods <{filename}/articles/jach/jach_010.rst>`_.
 
 Acknowledgement
 ===============

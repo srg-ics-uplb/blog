@@ -2,7 +2,7 @@ Research Proposal Part 1: Finding and Identifying Research Gaps
 ###############################################################
 
 :date: 2025-07-21
-:category: Research, Proposal
+:category: Research
 :author: Joseph Anthony C. Hermocilla
 
 
@@ -209,6 +209,9 @@ Final Tips
 - **Document Your Process**: Maintain a gap-tracking notebook or database.
 - **Iterate Continuously**: Revisit gaps as literature and tech evolve.
 - **Balance Novelty and Feasibility**: Choose problems that are new *and* solvable.
+
+
+The next post will focus on the `Problem Statement <{filename}/articles/jach/jach_009.rst>`_.
 
 Acknowledgement
 ===============
