@@ -70,4 +70,4 @@ The next post will focus on the `Aims, Objectives, and Methods <{filename}/artic
 
 Acknowledgement
 ===============
-This article was made with the help of Grok (accessed 2025-07-222)
+This article was made with the help of Grok (accessed 2025-07-22)
