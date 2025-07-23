@@ -1,8 +1,8 @@
 Research Proposal Part 2: Writing the Problem Statement
 #######################################################
 
-:date: 2025-07-24
-:category: Research
+:date: 2025-07-22
+:category: Research, Proposal
 :author: Joseph Anthony C. Hermocilla
 
 
@@ -68,4 +68,4 @@ Tips for Computer Systems Context
 
 Acknowledgement
 ===============
-This article was made with the help of Grok (accessed 2025-07-23)
+This article was made with the help of Grok (accessed 2025-07-222)

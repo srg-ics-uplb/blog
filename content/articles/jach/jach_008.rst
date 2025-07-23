@@ -1,8 +1,8 @@
 Research Proposal Part 1: Finding and Identifying Research Gaps
 ###############################################################
 
-:date: 2025-07-23
-:category: Research
+:date: 2025-07-21
+:category: Research, Proposal
 :author: Joseph Anthony C. Hermocilla
 
 
@@ -212,4 +212,4 @@ Final Tips
 
 Acknowledgement
 ===============
-This article was made with the help of Grok (accessed 2025-07-23)
+This article was made with the help of Grok (accessed 2025-07-21)
