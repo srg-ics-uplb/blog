@@ -43,8 +43,8 @@ Once a research gap has been identified, a Problem Statement can be created. Bel
 - **Relevance**: Does it connect to current challenges in Computer Systems?
 - **Actionability**: Does it suggest a research direction (e.g., designing a new scheduler)?
 
-Problem Statement
-=================
+Problem Statement Example
+=========================
 
 *"The default Kubernetes scheduler and existing alternatives, such as Volcano, lack fine-grained support for optimizing pod placement on heterogeneous clusters comprising CPUs, GPUs, and TPUs, resulting in suboptimal performance, resource underutilization, and limited scalability for machine learning workloads. As the adoption of heterogeneous accelerators and ML-driven applications grows in cloud environments, there is an urgent need for a Kubernetes-native scheduling solution that effectively leverages diverse hardware to meet the performance and efficiency demands of modern ML workflows."*
 

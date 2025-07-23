@@ -5,7 +5,7 @@ Writing the Aim, Objectives, and Methods
 :category: Research
 :author: Joseph Anthony C. Hermocilla
 
-Once a research gap has been identified, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from `Approach 5: Analyzing real-world systems and industry needs <{filename}/articles/jach/jach_008.rst>`_. The example identified a research gap in *developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters*, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.
+Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from `Approach 5: Analyzing real-world systems and industry needs <{filename}/articles/jach/jach_008.rst>`_. The example identified a research gap in *developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters*, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.
 
 When crafting a research proposal for this gap, the Aim, Objectives, and Methods sections should clearly articulate the purpose, specific goals, and approach to addressing the problem. These sections must be concise, focused, and aligned with the identified gap, ensuring the research is feasible and impactful in the context of Computer Systems.
 
@@ -63,6 +63,7 @@ The Methods section describes the technical approach to achieving the objectives
 
 To address the identified gap, the research will proceed as follows:
 
+
 #. *Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.*
 
 #. *Implementation: Implement the scheduler as a custom Kubernetes scheduler extension using Go, integrated with the Kubernetes API. The extension will leverage kube-scheduler’s pluggable architecture to ensure compatibility with existing clusters.*
@@ -72,6 +73,7 @@ To address the identified gap, the research will proceed as follows:
 #. *Evaluation: Compare the proposed scheduler against the default Kubernetes scheduler and state-of-the-art alternatives (e.g., Volcano). Measure key metrics: (a) throughput (tasks completed per second), (b) latency (task completion time), (c) resource utilization (CPU/GPU/TPU usage), and (d) scheduling overhead. Conduct experiments under varying cluster sizes (4–16 nodes) and workload intensities.*
 
 #. *Validation: Analyze results to confirm improvements in performance and scalability, and validate robustness by introducing synthetic failures (e.g., node crashes) to test fault tolerance.*
+
 
 Discussion
 ==========
