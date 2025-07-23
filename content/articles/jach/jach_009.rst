@@ -1,5 +1,5 @@
-Writing the Problem Statement
-#############################
+Research Proposal Part 2: Writing the Problem Statement
+#######################################################
 
 :date: 2025-07-24
 :category: Research

@@ -1,5 +1,5 @@
-Writing the Aim, Objectives, and Methods
-########################################
+Research Proposal Part 3: Writing the Aim, Objectives, and Methods
+##################################################################
 
 :date: 2025-07-24
 :category: Research
