@@ -3,7 +3,7 @@ How to contribute to this blog (Long Method)
 
 :date: 2019-2-1
 :modified: 2019-3-5
-:category: HowTo's
+:category: How-To
 :author: Joseph Anthony C. Hermocilla
 
 
@@ -58,7 +58,7 @@ content. You're going to place all your entries in this directory.
 
 .. code-block:: shell 
 
-   $ mkdir -p content/<YOUR_NICKNAME>
+   $ mkdir -p content/articles/<YOUR_NICKNAME>
 
 For example, the source for this entry is `here <https://raw.githubusercontent.com/srg-ics-uplb/blog/master/content/articles/jach/jach_001.rst>`_.
 
