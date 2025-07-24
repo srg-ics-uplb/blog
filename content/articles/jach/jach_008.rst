@@ -5,13 +5,13 @@ Research Proposal Part 1: Finding and Identifying Research Gaps
 :modified: 2025-07-24
 :category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
-:summary: The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other fields also. 
+:summary: The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other areas also. 
 
 .. image:: ./images/jach/008_gaps.png
       :width: 50%
       :align: center
 
-The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other fields also. 
+The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other areas also. 
 
 A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach) 
 within a research area that has not been answered or addressed yet and thus have limited discussion in the 
