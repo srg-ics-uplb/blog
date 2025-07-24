@@ -91,7 +91,7 @@ For our running example, the review can be structured into three main subsection
 *4. Synthesis and Gap Identification*
 -------------------------------------
 
-**Objective**: Summarize the limitations of existing work and position your research as a solution.
+**Objective**: Summarize the limitations of existing work and position your research as a solution (the last sentence).
 
 **Example Discussion**:
    *Existing Kubernetes schedulers, such as the default scheduler and Volcano, are designed for general-purpose or batch workloads but lack fine-grained support for heterogeneous hardware and ML-specific requirements. While systems like Tiresias and Themis address GPU scheduling, they do not generalize to mixed CPU/GPU/TPU clusters or integrate with Kubernetes. Furthermore, ML workload optimizations, as seen in Allox, are not designed for containerized environments. Our work addresses these gaps by proposing a Kubernetes scheduler extension that optimizes pod placement for ML workloads on heterogeneous clusters, improving performance, resource utilization, and scalability.*
