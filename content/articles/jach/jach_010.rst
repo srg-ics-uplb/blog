@@ -40,10 +40,12 @@ The Objectives break down the aim into specific, measurable, and achievable goal
 
 **Example Objectives**:
 
-#. *To design a scheduling algorithm that accounts for heterogeneous hardware (CPU, GPU, TPU) characteristics in Kubernetes clusters.*
-#. *To implement the proposed scheduler extension as a pluggable module in the Kubernetes framework.*
-#. *To evaluate the scheduler’s performance in terms of throughput, latency, and resource utilization for ML workloads compared to the default Kubernetes scheduler.*
-#. *To assess the scheduler’s scalability and robustness under diverse ML workloads and cluster configurations.*
+*Specifically, this study intends to:*
+
+#. *design a scheduling algorithm that accounts for heterogeneous hardware (CPU, GPU, TPU) characteristics in Kubernetes clusters;*
+#. *implement the proposed scheduler extension as a pluggable module in the Kubernetes framework;*
+#. *evaluate the scheduler’s performance in terms of throughput, latency, and resource utilization for ML workloads compared to the default Kubernetes scheduler; and*
+#. *assess the scheduler’s scalability and robustness under diverse ML workloads and cluster configurations.*
 
 3. Methods
 ----------
@@ -61,7 +63,7 @@ The Methods section describes the technical approach to achieving the objectives
 
 **Example Methods**:
 
-To address the identified gap, the research will proceed as follows:
+*To address the identified gap, the research will proceed as follows:*
 
 
 #. *Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.*
