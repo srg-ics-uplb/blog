@@ -65,7 +65,7 @@ The Methods section describes the technical approach to achieving the objectives
 
 **Example Methods**:
 
-*To address the identified gap, the research will proceed as follows:*
+*To address the identified gap, the research will proceed as follows (note that this example needs to be expanded further in an actual proposal):*
 
 
 #. *Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.*
