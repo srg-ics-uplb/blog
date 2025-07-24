@@ -3,7 +3,7 @@ How to contribute to this blog (Short Method)
 
 :date: 2019-2-2
 :modified: 2019-3-6
-:category: HowTo's
+:category: How-To
 :author: Joseph Anthony C. Hermocilla
 
 This method is easier because the editing will be done in
