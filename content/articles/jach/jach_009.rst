@@ -69,5 +69,5 @@ Tips for Computer Systems Context
 `Part 3 <{filename}/articles/jach/jach_010.rst>`_ will focus on the Aim, Objectives, and Methods. 
 
 Acknowledgement
-===============
+---------------
 This article was made with the help of Grok (accessed 2025-07-22)
