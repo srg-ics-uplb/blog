@@ -184,7 +184,7 @@
 &lt;/div&gt;
 &lt;div class="section" id="synthesis-and-gap-identification"&gt;
 &lt;h3&gt;&lt;em&gt;4. Synthesis and Gap Identification&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Summarize the limitations of existing work and position your research as a solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Summarize the limitations of existing work and position your research as a solution (the last sentence).&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;&lt;strong&gt;Example Discussion&lt;/strong&gt;:&lt;/dt&gt;
 &lt;dd&gt;&lt;em&gt;Existing Kubernetes schedulers, such as the default scheduler and Volcano, are designed for general-purpose or batch workloads but lack fine-grained support for heterogeneous hardware and ML-specific requirements. While systems like Tiresias and Themis address GPU scheduling, they do not generalize to mixed CPU/GPU/TPU clusters or integrate with Kubernetes. Furthermore, ML workload optimizations, as seen in Allox, are not designed for containerized environments. Our work addresses these gaps by proposing a Kubernetes scheduler extension that optimizes pod placement for ML workloads on heterogeneous clusters, improving performance, resource utilization, and scalability.&lt;/em&gt;&lt;/dd&gt;
