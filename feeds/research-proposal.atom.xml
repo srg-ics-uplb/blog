@@ -254,7 +254,7 @@
 &lt;li&gt;Include validation or comparison against baselines (e.g., default Kubernetes scheduler).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Example Methods&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;To address the identified gap, the research will proceed as follows:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To address the identified gap, the research will proceed as follows (note that this example needs to be expanded further in an actual proposal):&lt;/em&gt;&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;&lt;em&gt;Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Implementation: Implement the scheduler as a custom Kubernetes scheduler extension using Go, integrated with the Kubernetes API. The extension will leverage kube-scheduler’s pluggable architecture to ensure compatibility with existing clusters.&lt;/em&gt;&lt;/li&gt;
@@ -487,9 +487,8 @@ literature. In this post, some approaches (with techniques and examples) to find
 &lt;li&gt;&lt;strong&gt;Novelty Check&lt;/strong&gt;: Ensure no recent work has addressed it.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Impact Assessment&lt;/strong&gt;: Evaluate real-world or academic importance.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Feasibility Analysis&lt;/strong&gt;: Check tools, data, and time constraints.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Community Feedback&lt;/strong&gt;: Get input from peers and mentors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Feedback&lt;/strong&gt;: Get input from your adviser, peers, and mentors.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The above tasks can be done with your adviser and mentors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="final-tips"&gt;
 &lt;h2&gt;Final Tips&lt;/h2&gt;
