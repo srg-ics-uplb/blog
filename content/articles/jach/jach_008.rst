@@ -203,9 +203,7 @@ Once you identify a potential gap:
 1. **Novelty Check**: Ensure no recent work has addressed it.
 2. **Impact Assessment**: Evaluate real-world or academic importance.
 3. **Feasibility Analysis**: Check tools, data, and time constraints.
-4. **Community Feedback**: Get input from peers and mentors.
-
-The above tasks can be done with your adviser and mentors.
+4. **Community Feedback**: Get input from your adviser, peers, and mentors.
 
 Final Tips
 ==========
