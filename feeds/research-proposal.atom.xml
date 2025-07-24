@@ -199,7 +199,7 @@
 &lt;li&gt;&lt;strong&gt;Consider Scalability and Robustness&lt;/strong&gt;: Note limitations in handling large-scale or failure-prone clusters, as these are critical in systems research.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Stay Current&lt;/strong&gt;: Use recent papers (2020-2025) and check preprints on arXiv or discussions on X to ensure your review reflects the latest trends.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-5-writing-the-title.html"&gt;Title&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-5-writing-the-title.html"&gt;Part 5&lt;/a&gt; will focus on the Title.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgement"&gt;
 &lt;h2&gt;Acknowledgement&lt;/h2&gt;
@@ -269,7 +269,7 @@
 &lt;li&gt;&lt;strong&gt;Objectives&lt;/strong&gt;: The objectives break the aim into actionable steps, covering design, implementation, and evaluation. They are specific (e.g., handling CPU/GPU/TPU) and measurable (e.g., throughput, latency), ensuring the research is focused and achievable within a typical systems project timeline.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Methods&lt;/strong&gt;: The methods provide a clear roadmap, leveraging existing tools (Kubernetes, MLPerf, GKE) to ensure feasibility. The experimental setup reflects real-world ML cluster scenarios, and the comparison with baselines (default scheduler, Volcano) strengthens the evaluation. The inclusion of fault tolerance testing aligns with systems research priorities like robustness.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-4-writing-the-review-of-releated-literature.html"&gt;Review of Related Literature&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-4-writing-the-review-of-releated-literature.html"&gt;Part 4&lt;/a&gt;  will focus on the Review of Related Literature.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgement"&gt;
 &lt;h3&gt;Acknowledgement&lt;/h3&gt;
@@ -338,16 +338,16 @@
 &lt;li&gt;&lt;strong&gt;Leverage Trends&lt;/strong&gt;: Tie the problem to current technological shifts, such as the rise of TPUs or edge computing, to justify timeliness.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Be Concise&lt;/strong&gt;: Aim for 1-2 sentences to maintain focus, as seen in the example.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html"&gt;Aims, Objectives, and Methods&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html"&gt;Part 3&lt;/a&gt; will focus on the Aim, Objectives, and Methods.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgement"&gt;
 &lt;h3&gt;Acknowledgement&lt;/h3&gt;
 &lt;p&gt;This article was made with the help of Grok (accessed 2025-07-22)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Research Proposal"></category></entry><entry><title>Research Proposal Part 1: Finding and Identifying Research Gaps</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html" rel="alternate"></link><published>2025-07-21T00:00:00+08:00</published><updated>2025-07-24T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-21:/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html</id><summary type="html">&lt;p class="first last"&gt;A series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other fields also.&lt;/p&gt;
+</content><category term="Research Proposal"></category></entry><entry><title>Research Proposal Part 1: Finding and Identifying Research Gaps</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html" rel="alternate"></link><published>2025-07-21T00:00:00+08:00</published><updated>2025-07-24T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-21:/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html</id><summary type="html">&lt;p class="first last"&gt;The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other fields also.&lt;/p&gt;
 </summary><content type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 50%;" /&gt;
-&lt;p&gt;A series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular.  Although this is tailored for systems research, the ideas apply to other fields also.&lt;/p&gt;
+&lt;p&gt;The first part of a series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. Although this is tailored for systems research, the ideas apply to other fields also.&lt;/p&gt;
 &lt;p&gt;A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
 within a research area that has not been answered or addressed yet and thus have limited discussion in the
 literature. In this post, some approaches (with techniques and examples) to find and identify research gaps in computer systems research are presented.&lt;/p&gt;
@@ -498,7 +498,7 @@ literature. In this post, some approaches (with techniques and examples) to find
 &lt;li&gt;&lt;strong&gt;Iterate Continuously&lt;/strong&gt;: Revisit gaps as literature and tech evolve.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Balance Novelty and Feasibility&lt;/strong&gt;: Choose problems that are new &lt;em&gt;and&lt;/em&gt; solvable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The next post will focus on the &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-2-writing-the-problem-statement.html"&gt;Problem Statement&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-2-writing-the-problem-statement.html"&gt;Part 2&lt;/a&gt; will focus on the Problem Statement.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="acknowledgement"&gt;
 &lt;h2&gt;Acknowledgement&lt;/h2&gt;
