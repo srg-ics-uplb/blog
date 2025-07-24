@@ -89,7 +89,7 @@ Discussion
 - **Methods**: The methods provide a clear roadmap, leveraging existing tools (Kubernetes, MLPerf, GKE) to ensure feasibility. The experimental setup reflects real-world ML cluster scenarios, and the comparison with baselines (default scheduler, Volcano) strengthens the evaluation. The inclusion of fault tolerance testing aligns with systems research priorities like robustness.
 
 
-The next post will focus on the `Review of Related Literature <{filename}/articles/jach/jach_011.rst>`_.
+`Part 4 <{filename}/articles/jach/jach_011.rst>`_  will focus on the Review of Related Literature. 
 
 Acknowledgement
 ===============

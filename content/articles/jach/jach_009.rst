@@ -66,7 +66,7 @@ Tips for Computer Systems Context
 - **Be Concise**: Aim for 1-2 sentences to maintain focus, as seen in the example.
 
 
-The next post will focus on the `Aims, Objectives, and Methods <{filename}/articles/jach/jach_010.rst>`_.
+`Part 3 <{filename}/articles/jach/jach_010.rst>`_ will focus on the Aim, Objectives, and Methods. 
 
 Acknowledgement
 ===============

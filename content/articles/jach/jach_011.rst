@@ -105,7 +105,7 @@ Tips for Computer Systems Context
 - **Stay Current**: Use recent papers (2020-2025) and check preprints on arXiv or discussions on X to ensure your review reflects the latest trends.
 
 
-The next post will focus on the `Title <{filename}/articles/jach/jach_012.rst>`_.
+`Part 5 <{filename}/articles/jach/jach_012.rst>`_ will focus on the Title.
 
 Acknowledgement
 ===============
