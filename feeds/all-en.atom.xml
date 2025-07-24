@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/all-en.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2025-07-23T00:00:00+08:00</updated><entry><title>Research Proposal Part 3: Writing the Aim, Objectives, and Methods</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html" rel="alternate"></link><published>2025-07-23T00:00:00+08:00</published><updated>2025-07-23T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-23:/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html</id><summary type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems and industry needs&lt;/a&gt;. The example identified a research gap in &lt;em&gt;developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters&lt;/em&gt;, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/all-en.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2025-07-24T00:00:00+08:00</updated><entry><title>Research Proposal Part 3: Writing the Aim, Objectives, and Methods</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html" rel="alternate"></link><published>2025-07-23T00:00:00+08:00</published><updated>2025-07-23T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-23:/blog/research-proposal-part-3-writing-the-aim-objectives-and-methods.html</id><summary type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once a research gap has been identified and Problem Statement has been drafted, the Aim, Objectives, and Methods can now be written. Below is a short discussion on how to write the Aim, Objectives, and Methods for a research proposal based on the example from &lt;a class="reference external" href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html"&gt;Approach 5: Analyzing real-world systems and industry needs&lt;/a&gt;. The example identified a research gap in &lt;em&gt;developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters&lt;/em&gt;, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.&lt;/p&gt;
 &lt;p&gt;When crafting a research proposal for this gap, the Aim, Objectives, and Methods sections should clearly articulate the purpose, specific goals, and approach to addressing the problem. These sections must be concise, focused, and aligned with the identified gap, ensuring the research is feasible and impactful in the context of Computer Systems.&lt;/p&gt;
 &lt;div class="section" id="aim-aka-general-objective"&gt;
 &lt;h2&gt;1. Aim (aka General Objective)&lt;/h2&gt;
@@ -26,11 +26,12 @@
 &lt;li&gt;Reflect the systems-specific context (e.g., handling GPUs/TPUs, improving ML workload efficiency).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Example Objectives&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Specifically, this study intends to:&lt;/em&gt;&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;&lt;em&gt;To design a scheduling algorithm that accounts for heterogeneous hardware (CPU, GPU, TPU) characteristics in Kubernetes clusters.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;To implement the proposed scheduler extension as a pluggable module in the Kubernetes framework.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;To evaluate the scheduler’s performance in terms of throughput, latency, and resource utilization for ML workloads compared to the default Kubernetes scheduler.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;To assess the scheduler’s scalability and robustness under diverse ML workloads and cluster configurations.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;design a scheduling algorithm that accounts for heterogeneous hardware (CPU, GPU, TPU) characteristics in Kubernetes clusters;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;implement the proposed scheduler extension as a pluggable module in the Kubernetes framework;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;evaluate the scheduler’s performance in terms of throughput, latency, and resource utilization for ML workloads compared to the default Kubernetes scheduler; and&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;assess the scheduler’s scalability and robustness under diverse ML workloads and cluster configurations.&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;div class="section" id="methods"&gt;
@@ -46,7 +47,7 @@
 &lt;li&gt;Include validation or comparison against baselines (e.g., default Kubernetes scheduler).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Example Methods&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;To address the identified gap, the research will proceed as follows:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To address the identified gap, the research will proceed as follows:&lt;/em&gt;&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;&lt;em&gt;Algorithm Design: Develop a scheduling algorithm that incorporates hardware-specific metrics (e.g., GPU memory bandwidth, TPU compute capacity) and ML workload requirements (e.g., data parallelism, model size). The algorithm will use a weighted scoring model to prioritize pod placement based on resource compatibility and workload demands.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Implementation: Implement the scheduler as a custom Kubernetes scheduler extension using Go, integrated with the Kubernetes API. The extension will leverage kube-scheduler’s pluggable architecture to ensure compatibility with existing clusters.&lt;/em&gt;&lt;/li&gt;
@@ -136,10 +137,10 @@
 &lt;p&gt;This article was made with the help of Grok (accessed 2025-07-22)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="Research"></category></entry><entry><title>Research Proposal Part 1: Finding and Identifying Research Gaps</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html" rel="alternate"></link><published>2025-07-21T00:00:00+08:00</published><updated>2025-07-21T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-21:/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html</id><summary type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 60%;" /&gt;
+</content><category term="Research"></category></entry><entry><title>Research Proposal Part 1: Finding and Identifying Research Gaps</title><link href="https://srg-ics-uplb.github.io/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html" rel="alternate"></link><published>2025-07-21T00:00:00+08:00</published><updated>2025-07-24T00:00:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-07-21:/blog/research-proposal-part-1-finding-and-identifying-research-gaps.html</id><summary type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 50%;" /&gt;
 &lt;p&gt;A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
 within a research area that has not been answered or addressed yet and thus have limited discussion in the
-literature. In this post, some approaches (with techniques and examples) to find and identify …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 60%;" /&gt;
+literature. In this post, some approaches (with techniques and examples) to find and identify …&lt;/p&gt;</summary><content type="html">&lt;img alt="" class="align-center" src="./images/jach/008_gaps.png" style="width: 50%;" /&gt;
 &lt;p&gt;A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach)
 within a research area that has not been answered or addressed yet and thus have limited discussion in the
 literature. In this post, some approaches (with techniques and examples) to find and identify research gaps in computer systems research are presented.&lt;/p&gt;
@@ -281,6 +282,7 @@ literature. In this post, some approaches (with techniques and examples) to find
 &lt;li&gt;&lt;strong&gt;Feasibility Analysis&lt;/strong&gt;: Check tools, data, and time constraints.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Community Feedback&lt;/strong&gt;: Get input from peers and mentors.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;The above tasks can be done with your adviser and mentors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="final-tips"&gt;
 &lt;h2&gt;Final Tips&lt;/h2&gt;
