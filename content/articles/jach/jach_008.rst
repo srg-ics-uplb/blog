@@ -2,12 +2,13 @@ Research Proposal Part 1: Finding and Identifying Research Gaps
 ###############################################################
 
 :date: 2025-07-21
+:modified: 2025-07-24
 :category: Research
 :author: Joseph Anthony C. Hermocilla
 
 
 .. image:: ./images/jach/008_gaps.png
-      :width: 60%
+      :width: 50%
       :align: center
 
 A research endeavor usually starts by identifying research gaps. A research gap is 'something' (question, concept, approach) 
@@ -202,6 +203,7 @@ Once you identify a potential gap:
 3. **Feasibility Analysis**: Check tools, data, and time constraints.
 4. **Community Feedback**: Get input from peers and mentors.
 
+The above tasks can be done with your adviser and mentors.
 
 Final Tips
 ==========
