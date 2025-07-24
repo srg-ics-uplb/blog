@@ -3,7 +3,7 @@ Research Proposal Part 1: Finding and Identifying Research Gaps
 
 :date: 2025-07-21
 :modified: 2025-07-24
-:category: Research
+:category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 :summary: A series of posts to help students come up with a research proposal for their CMSC 190/200/300 or for publication in conferences and journals. I used AI tools to create these posts, Grok in particular. 
 

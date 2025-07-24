@@ -2,7 +2,7 @@ Research Proposal Part 5: Writing the Title
 ###########################################
 
 :date: 2025-07-24 23:00 
-:category: Research
+:category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 :summary: The title of a research proposal in Computer Systems should be clear, concise, and informative, conveying the key focus, contribution, and scope of the work. It should attract the attention of the target audience (e.g., systems researchers, industry practitioners) while adhering to academic standards.
 

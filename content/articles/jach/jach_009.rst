@@ -2,7 +2,7 @@ Research Proposal Part 2: Writing the Problem Statement
 #######################################################
 
 :date: 2025-07-22
-:category: Research
+:category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 
 

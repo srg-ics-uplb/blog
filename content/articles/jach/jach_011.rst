@@ -2,7 +2,7 @@ Research Proposal Part 4: Writing the Review of Releated Literature
 ###################################################################
 
 :date: 2025-07-24
-:category: Research
+:category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 :summary: The purpose of the review of related literature is to position your research, highlight the gap, demonstrate expertise, and provide context to your research.
 

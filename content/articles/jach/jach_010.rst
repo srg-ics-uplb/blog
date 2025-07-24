@@ -2,7 +2,7 @@ Research Proposal Part 3: Writing the Aim, Objectives, and Methods
 ##################################################################
 
 :date: 2025-07-23
-:category: Research
+:category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 :summary: The Aims, Objectives, and Methods should be clearly articulated as this is what the researcher is set to achieve for the research.
 
