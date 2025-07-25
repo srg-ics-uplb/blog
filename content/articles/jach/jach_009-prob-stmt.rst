@@ -6,7 +6,7 @@ Research Proposal Part 2: Writing the Problem Statement
 :author: Joseph Anthony C. Hermocilla
 
 
-Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from `Approach        5: Analyzing real-world systems and industry needs <{filename}/articles/jach/jach_008.rst>`_. The example identified a research gap in *developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-hea       vy clusters*, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.
+Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from `Approach 5: Analyzing real-world systems and industry needs <{filename}/articles/jach/jach_008-gaps.rst>`_. The example identified a research gap in *developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters*, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.
 
 1. Define the Problem Clearly
 -----------------------------
