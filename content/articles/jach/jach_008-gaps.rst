@@ -213,7 +213,7 @@ Final Tips
 - **Balance Novelty and Feasibility**: Choose problems that are new *and* solvable.
 
 
-`Part 2 <{filename}/articles/jach/jach_009.rst>`_ will focus on the Problem Statement.
+`Part 2 <{filename}/articles/jach/jach_009-prob-stmt.rst>`_ will focus on the Problem Statement.
 
 Acknowledgement
 ===============

@@ -94,6 +94,8 @@ Additional Tips for Computer Systems Context
 * **Highlight Application**: Including "machine learning workloads" ties to the growing importance of ML in systems research.
 * **Check Venue Fit**: For example, NSDI prefers titles emphasizing systems and networking, while ASPLOS may favor hardware-software integration (e.g., mentioning CPU/GPU/TPU).
 
+Part 6 <{filename}/articles/jach/jach_013-eval.rst>`_ will focus on the Evaluation.
+
 Acknowledgement
 ===============
 This article was made with the help of Grok (accessed 2025-07-24)
