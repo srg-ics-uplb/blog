@@ -62,6 +62,8 @@ The title of a research proposal in Computer Systems should be clear, concise, a
 * **Be Realistic**: Don't claim overly broad impacts (e.g., "Revolutionizing Cloud Computing") unless justified.
 * **Focus on Contribution**: Emphasize the specific system or technique (e.g., scheduler extension) rather than vague goals.
 
+----
+
 Title Example
 =============
 
@@ -86,6 +88,8 @@ To illustrate flexibility, here are variations depending on emphasis:
 * **Broader Scope**: *"Efficient Scheduling for ML Workloads in Heterogeneous Kubernetes Clusters"*
 * **Specific Metric**: *"Low-Latency Kubernetes Scheduling for Heterogeneous ML Clusters"*
 
+----
+
 Additional Tips for Computer Systems Context
 --------------------------------------------
 
@@ -94,7 +98,7 @@ Additional Tips for Computer Systems Context
 * **Highlight Application**: Including "machine learning workloads" ties to the growing importance of ML in systems research.
 * **Check Venue Fit**: For example, NSDI prefers titles emphasizing systems and networking, while ASPLOS may favor hardware-software integration (e.g., mentioning CPU/GPU/TPU).
 
-Part 6 <{filename}/articles/jach/jach_013-eval.rst>`_ will focus on the Evaluation.
+`Part 6 <{filename}/articles/jach/jach_013-eval.rst>`_ will focus on the Evaluation.
 
 Acknowledgement
 ===============

@@ -58,6 +58,7 @@ Practical Steps for Writing
    - Ensure technical terms (e.g., pod, accelerator) are defined or clear from context.
    - Verify citations are complete and follow the required style (e.g., [Author, Conference Year]).
 
+----
 
 Review of Related Literature Example
 ====================================
@@ -95,6 +96,8 @@ For our running example, the review can be structured into three main subsection
 
 **Example Discussion**:
    *Existing Kubernetes schedulers, such as the default scheduler and Volcano, are designed for general-purpose or batch workloads but lack fine-grained support for heterogeneous hardware and ML-specific requirements. While systems like Tiresias and Themis address GPU scheduling, they do not generalize to mixed CPU/GPU/TPU clusters or integrate with Kubernetes. Furthermore, ML workload optimizations, as seen in Allox, are not designed for containerized environments. Our work addresses these gaps by proposing a Kubernetes scheduler extension that optimizes pod placement for ML workloads on heterogeneous clusters, improving performance, resource utilization, and scalability.*
+
+----
 
 Tips for Computer Systems Context
 =================================

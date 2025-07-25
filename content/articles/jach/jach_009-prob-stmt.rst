@@ -43,6 +43,8 @@ Once a research gap has been identified, a Problem Statement can be created. Bel
 - **Relevance**: Does it connect to current challenges in Computer Systems?
 - **Actionability**: Does it suggest a research direction (e.g., designing a new scheduler)?
 
+----
+
 Example Problem Statement
 =========================
 
@@ -56,6 +58,8 @@ Discussion of the Example
 - **Need**: It underscores the urgency due to trends (growing use of heterogeneous accelerators, ML adoption) and implies the gap is unaddressed by referencing limitations in existing schedulers.
 - **Alignment with Gap**: The statement directly reflects the research gap, focusing on the need for a Kubernetes-native, hardware-aware scheduler for ML workloads.
 - **Research Framing**: It sets up the proposed research (a new scheduler) without prescribing the solution, leaving room for the `aim and objectives <{filename}/articles/jach/jach_010.rst>`_ to elaborate.
+
+----
 
 Tips for Computer Systems Context
 =================================

@@ -4,9 +4,9 @@ Research Proposal Part 6: Evaluation and Validation
 :date: 2025-07-25 15:00 
 :category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
-:summary: This post discusses how to evaluate and validate the output of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal. 
+:summary: This post discusses how to evaluate and validate the artifact(usually software implementation) of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal. 
  
-This post discusses how to evaluate and validate the output of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal. This discussion outlines the principles, methodologies, and best practices for evaluating and validating a new system in the context of computer system. Again, we use the Kubernetes scheduler as the example.
+This post discusses how to evaluate and validate the artifact(usually software implementation) of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal. This discussion outlines the principles, methodologies, and best practices for evaluating and validating a new system in the context of computer system. Again, we use the Kubernetes scheduler as the example.
 
 1. **Define Clear Evaluation Metrics**
 --------------------------------------
