@@ -58,7 +58,7 @@
     </ul>
   </header>
   <div class="content">
-    <p>Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from <a class="reference external" href="./research-proposal-part-1-finding-and-identifying-research-gaps.html">Approach        5: Analyzing real-world systems and industry needs</a>. The example identified a research gap in <em>developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-hea       vy clusters</em>, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.</p>
+    <p>Once a research gap has been identified, a Problem Statement can be created. Below is a short discussion on how to write the Problem Statement for a research proposal based on the example from <a class="reference external" href="./research-proposal-part-1-finding-and-identifying-research-gaps.html">Approach 5: Analyzing real-world systems and industry needs</a>. The example identified a research gap in <em>developing a Kubernetes scheduler extension that optimizes for heterogeneous hardware in ML-heavy clusters</em>, inspired by unresolved issues in the Kubernetes GitHub tracker about inefficient pod scheduling on mixed CPU/GPU/TPU nodes.</p>
 <div class="section" id="define-the-problem-clearly">
 <h2>1. Define the Problem Clearly</h2>
 <ul class="simple">
@@ -98,6 +98,7 @@
 <li><strong>Relevance</strong>: Does it connect to current challenges in Computer Systems?</li>
 <li><strong>Actionability</strong>: Does it suggest a research direction (e.g., designing a new scheduler)?</li>
 </ul>
+<hr class="docutils" />
 <div class="section" id="example-problem-statement">
 <h3>Example Problem Statement</h3>
 <p><em>&quot;The default Kubernetes scheduler and existing alternatives, such as Volcano, lack fine-grained support for optimizing pod placement on heterogeneous clusters comprising CPUs, GPUs, and TPUs, resulting in suboptimal performance, resource underutilization, and limited scalability for machine learning workloads. As the adoption of heterogeneous accelerators and ML-driven applications grows in cloud environments, there is an urgent need for a Kubernetes-native scheduling solution that effectively leverages diverse hardware to meet the performance and efficiency demands of modern ML workflows.&quot;</em></p>
@@ -109,9 +110,10 @@
 <li><strong>Impact</strong>: It highlights consequences (suboptimal performance, resource underutilization, limited scalability) and stakeholders (cloud providers, ML practitioners).</li>
 <li><strong>Need</strong>: It underscores the urgency due to trends (growing use of heterogeneous accelerators, ML adoption) and implies the gap is unaddressed by referencing limitations in existing schedulers.</li>
 <li><strong>Alignment with Gap</strong>: The statement directly reflects the research gap, focusing on the need for a Kubernetes-native, hardware-aware scheduler for ML workloads.</li>
-<li><strong>Research Framing</strong>: It sets up the proposed research (a new scheduler) without prescribing the solution, leaving room for the <a class="reference external" href="./research-proposal-part-3-writing-the-aim-objectives-and-methods.html">aim and objectives</a> to elaborate.</li>
+<li><strong>Research Framing</strong>: It sets up the proposed research (a new scheduler) without prescribing the solution, leaving room for the <a class="reference external" href="{filename}/articles/jach/jach_010.rst">aim and objectives</a> to elaborate.</li>
 </ul>
 </div>
+<hr class="docutils" />
 <div class="section" id="tips-for-computer-systems-context">
 <h3>Tips for Computer Systems Context</h3>
 <ul class="simple">

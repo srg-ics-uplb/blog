@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Research Proposal Part 6: Evaluation and Validation | Lost Packets
+</title>
+  <link rel="canonical" href="./research-proposal-part-6-evaluation-and-validation.html">
+
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" title="Full Atom Feed">
+  <link rel="alternate" type="application/atom+xml" href="https://srg-ics-uplb.github.io/blog/feeds/{slug}.atom.xml" title="Categories Atom Feed">
+
+
+  <link rel="stylesheet" href="./theme/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./theme/css/pygments/default.min.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+
+
+<meta name="description" content="This post discusses how to evaluate and validate the artifact(usually software implementation) of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal.">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title"><a href=".">Lost Packets</a></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container">
+      <h1>Research Proposal Part 6: Evaluation and Validation
+</h1>
+      <hr>
+<article class="article">
+  <header>
+    <ul class="list-inline">
+      <li class="list-inline-item text-muted" title="2025-07-25T15:00:00+08:00">
+        <i class="fa fa-clock-o"></i>
+        Created: Fri 25 July 2025
+      </li>
+
+      <li class="list-inline-item">
+        <i class="fa fa-folder-open-o"></i>
+        <a href="./category/research-proposal.html">Research Proposal</a>
+      </li>
+      <li class="list-inline-item">
+        <i class="fa fa-user-o"></i>
+        <a href="./author/joseph-anthony-c-hermocilla.html">Joseph Anthony C. Hermocilla</a>      </li>
+    </ul>
+  </header>
+  <div class="content">
+    <p>This post discusses how to evaluate and validate the artifact(usually software implementation) of the research. It describes what to include in the evaluation and validation plan. This is an expanded discussion for the Methods section of the research proposal. This discussion outlines the principles, methodologies, and best practices for evaluating and validating a new system in the context of computer system. Again, we use the Kubernetes scheduler as the example.</p>
+<div class="section" id="define-clear-evaluation-metrics">
+<h2>1. <strong>Define Clear Evaluation Metrics</strong></h2>
+<p><strong>Purpose</strong>: Metrics quantify the system’s performance and align with the research objectives (e.g., optimizing ML workloads on heterogeneous clusters, Objective 3 in the previous posts) .</p>
+<p><strong>Systems-Specific Metrics</strong>:</p>
+<ul class="simple">
+<li><strong>Performance</strong>: Throughput (tasks completed per second), latency (task completion time).</li>
+<li><strong>Efficiency</strong>: Resource utilization (CPU, GPU, TPU usage), energy consumption.</li>
+<li><strong>Scalability</strong>: Performance under varying cluster sizes or workloads.</li>
+<li><strong>Robustness</strong>: Behavior under failures (e.g., node crashes, network delays).</li>
+</ul>
+<p><strong>Example Relevance</strong>: For the scheduler, metrics should measure improvements in ML workload performance and resource efficiency compared to the default Kubernetes scheduler or alternatives like Volcano.</p>
+</div>
+<div class="section" id="select-appropriate-baselines">
+<h2>2. <strong>Select Appropriate Baselines</strong></h2>
+<p><strong>Purpose</strong>: Compare the proposed system against state-of-the-art or widely used systems to highlight its novelty and improvements.</p>
+<p><strong>Choices</strong>: Include the default Kubernetes scheduler, advanced schedulers like Volcano or Firmament, and possibly domain-specific solutions like Tiresias for GPU clusters.</p>
+<p><strong>Example Relevance</strong>: Comparing against the default Kubernetes scheduler shows practical improvements, while comparing against Volcano highlights advantages in heterogeneous ML environments.</p>
+</div>
+<div class="section" id="design-realistic-experimental-scenarios">
+<h2>3. <strong>Design Realistic Experimental Scenarios</strong></h2>
+<p><strong>Purpose</strong>: Test the system under conditions that reflect real-world use cases.</p>
+<p><strong>Workloads</strong>: Use standard ML benchmarks (e.g., MLPerf for training/inference tasks like ResNet, BERT) to simulate realistic ML workloads.</p>
+<p><strong>Environment</strong>: Deploy on a heterogeneous cluster (e.g., CPUs, NVIDIA GPUs, Google TPUs) using a cloud platform like Google Kubernetes Engine (GKE) or a local testbed.</p>
+<p><strong>Variations</strong>: Test diverse scenarios, such as small vs. large clusters, high vs. low workload intensity, and failure conditions (e.g., node failures).</p>
+<p><strong>Example Relevance</strong>: The scheduler must handle dynamic ML workloads on mixed hardware, so experiments should include varied cluster configurations and failure scenarios.</p>
+</div>
+<div class="section" id="implement-a-controlled-experimental-setup">
+<h2>4. <strong>Implement a Controlled Experimental Setup</strong></h2>
+<p><strong>Purpose</strong>: Ensure experiments are reproducible, fair, and isolate the impact of the proposed system.</p>
+<p><strong>Steps</strong>:</p>
+<ul class="simple">
+<li><strong>Hardware Specification</strong>: Use consistent hardware (e.g., Intel Xeon CPUs, NVIDIA A100 GPUs, Google TPU v4).</li>
+<li><strong>Software Stack</strong>: Standardize Kubernetes version (e.g., v1.30) and dependencies.</li>
+<li><strong>Control Variables</strong>: Fix parameters like network bandwidth or storage to isolate scheduling effects.</li>
+</ul>
+<p><strong>Example Relevance</strong>: The setup should replicate a production-like Kubernetes cluster to validate the scheduler’s performance in realistic ML deployments.</p>
+</div>
+<div class="section" id="validate-correctness-and-robustness">
+<h2>5. <strong>Validate Correctness and Robustness</strong></h2>
+<p><strong>Purpose</strong>: Ensure the system works as intended and handles edge cases.</p>
+<p><strong>Correctness</strong>: Verify that pods are placed according to the scheduler’s logic (e.g., hardware-aware placement) using logs or tracing.</p>
+<p><strong>Robustness</strong>: Test under stress conditions (e.g., node failures, network partitions) to ensure the scheduler maintains stability.</p>
+<p><strong>Example Relevance</strong>: Validate that the scheduler correctly prioritizes GPU/TPU nodes for ML tasks and doesn’t crash under high load or failures.</p>
+</div>
+<div class="section" id="analyze-and-compare-results">
+<h2>6. <strong>Analyze and Compare Results</strong></h2>
+<p><strong>Purpose</strong>: Quantify improvements and draw meaningful conclusions.</p>
+<p><strong>Statistical Analysis</strong>: Use averages, medians, and standard deviations for metrics like latency and throughput. Apply statistical tests (e.g., t-tests) if needed to confirm significance.</p>
+<p><strong>Visualization</strong>: Use charts (e.g., bar charts for throughput, line charts for scalability) to present results clearly.</p>
+<p><strong>Example Relevance</strong>: Compare the proposed scheduler’s performance against baselines to show, for instance, a 20% reduction in latency or 30% better GPU utilization.</p>
+</div>
+<div class="section" id="ensure-reproducibility-and-transparency">
+<h2>7. <strong>Ensure Reproducibility and Transparency</strong></h2>
+<p><strong>Purpose</strong>: Allow others to verify and build on your results, a hallmark of systems research.</p>
+<p><strong>Steps</strong>:</p>
+<ul class="simple">
+<li>Share code and configurations (e.g., via GitHub).</li>
+<li>Document the experimental setup (hardware, software, workloads).</li>
+<li>Publish datasets or workload traces if possible.</li>
+</ul>
+<p><strong>Example Relevance</strong>: Provide the scheduler’s source code and ML workload configurations to enable replication on other Kubernetes clusters.</p>
+</div>
+<div class="section" id="address-limitations">
+<h2>8. <strong>Address Limitations</strong></h2>
+<p><strong>Purpose</strong>: Acknowledge boundaries of the evaluation to maintain credibility.</p>
+<p><strong>Examples</strong>: Note if the evaluation is limited to specific ML models, cluster sizes, or hardware types.</p>
+<p><strong>Example Relevance</strong>: Highlight that the scheduler is optimized for ML workloads and may need adaptation for other workload types (e.g., HPC).</p>
+</div>
+<div class="section" id="align-with-systems-research-standards">
+<h2>9. <strong>Align with Systems Research Standards</strong></h2>
+<p><strong>Conferences</strong>: Follow evaluation rigor seen in top venues like OSDI, SOSP, or NSDI, where systems are tested under diverse workloads and failure modes.</p>
+<p><strong>Real-World Relevance</strong>: Emphasize practical impact, such as deployment feasibility in production Kubernetes clusters.</p>
+<p><strong>Example Relevance</strong>: The evaluation should mirror industry needs (e.g., efficient ML deployment) to appeal to both academic and practitioner audiences.</p>
+<hr class="docutils" />
+<div class="section" id="evaluation-and-validation-plan-example">
+<h3>Evaluation and Validation Plan Example</h3>
+<p>To evaluate and validate the proposed Kubernetes scheduler extension for optimizing pod placement for machine learning workloads on heterogeneous CPU/GPU/TPU clusters, the following methodology will be employed:</p>
+<p><strong>1. Metrics</strong>:</p>
+<ul class="simple">
+<li><strong>Throughput</strong>: ML tasks completed per second.</li>
+<li><strong>Latency</strong>: Average and tail latency for task completion.</li>
+<li><strong>Resource Utilization</strong>: Percentage usage of CPU, GPU, and TPU resources.</li>
+<li><strong>Scheduling Overhead</strong>: Time taken to make scheduling decisions.</li>
+<li><strong>Robustness</strong>: System stability under node failures or network delays.</li>
+</ul>
+<p><strong>2. Baselines</strong>:</p>
+<ul class="simple">
+<li>Default Kubernetes scheduler (v1.30).</li>
+<li>Volcano scheduler for batch ML workloads.</li>
+<li>Tiresias (adapted for Kubernetes, if feasible) for GPU-specific scheduling.</li>
+</ul>
+<p><strong>3. Experimental Setup</strong>:</p>
+<ul class="simple">
+<li><strong>Testbed</strong>: A cluster with 8 nodes (4 Intel Xeon CPUs, 2 NVIDIA A100 GPUs, 2 Google TPU v4) on Google Kubernetes Engine (GKE).</li>
+<li><strong>Workloads</strong>: MLPerf benchmarks (ResNet-50 for training, BERT for inference) with varying batch sizes and data parallelism levels.</li>
+<li><strong>Scenarios</strong>:
+- Small cluster (4 nodes) vs. large cluster (16 nodes).
+- Low-intensity (10 tasks) vs. high-intensity (100 tasks) workloads.
+- Failure scenarios: Simulate 1–2 node crashes and 100ms network delays.</li>
+</ul>
+<p><strong>4. Implementation</strong>:</p>
+<ul class="simple">
+<li>Deploy the scheduler extension as a custom Kubernetes scheduler using Go, integrated with the Kubernetes API.</li>
+<li>Use kube-scheduler’s pluggable architecture to ensure compatibility.</li>
+<li>Log scheduling decisions and resource allocations for correctness validation.</li>
+</ul>
+<p><strong>5. Validation</strong>:</p>
+<ul class="simple">
+<li><strong>Correctness</strong>: Verify that pods are placed on appropriate hardware (e.g., GPUs/TPUs for compute-intensive tasks) using Kubernetes logs and tracing tools (e.g., Jaeger).</li>
+<li><strong>Robustness</strong>: Test scheduler stability under failures, ensuring no crashes and minimal performance degradation (e.g., &lt;10% latency increase).</li>
+</ul>
+<p><strong>6. Analysis</strong>:</p>
+<ul class="simple">
+<li>Collect metrics over 10 runs per scenario to compute averages and standard deviations.</li>
+<li>Compare against baselines to quantify improvements (e.g., 20% lower latency, 30% higher GPU utilization).</li>
+<li>Use statistical tests (e.g., t-test) to confirm significance of results.</li>
+</ul>
+<p><strong>7. Visualization</strong>:</p>
+<p>Create charts and tables that compare the schedulers based on throughput and latency. For example:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="38%" />
+<col width="33%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Metric</th>
+<th class="head">Scheduler</th>
+<th class="head">Value</th>
+<th class="head">Unit</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td rowspan="4">Throughput</td>
+<td>Default Scheduler</td>
+<td>50</td>
+<td>Tasks/s</td>
+</tr>
+<tr><td>Volcano</td>
+<td>60</td>
+<td>Tasks/s</td>
+</tr>
+<tr><td>Tiresias</td>
+<td>65</td>
+<td>Tasks/s</td>
+</tr>
+<tr><td>Proposed Scheduler</td>
+<td>80</td>
+<td>Tasks/s</td>
+</tr>
+<tr><td rowspan="4">Latency</td>
+<td>Default Scheduler</td>
+<td>200</td>
+<td>ms</td>
+</tr>
+<tr><td>Volcano</td>
+<td>180</td>
+<td>ms</td>
+</tr>
+<tr><td>Tiresias</td>
+<td>170</td>
+<td>ms</td>
+</tr>
+<tr><td>Proposed Scheduler</td>
+<td>140</td>
+<td>ms</td>
+</tr>
+</tbody>
+</table>
+<p><strong>8. Reproducibility</strong>:</p>
+<ul class="simple">
+<li>Share the scheduler’s source code and configuration scripts on GitHub.</li>
+<li>Provide detailed documentation of the testbed setup, workload parameters, and failure scenarios.</li>
+<li>Publish MLPerf workload traces for replication.</li>
+</ul>
+<p><strong>9. Limitations</strong>:</p>
+<ul class="simple">
+<li>Evaluation is focused on ML workloads (ResNet, BERT) and may require adaptation for other workloads (e.g., HPC).</li>
+<li>Limited to specific hardware (A100 GPUs, TPU v4); results may vary with other accelerators.</li>
+</ul>
+</div>
+<div class="section" id="discussion-of-the-evaluation-and-validation-plan-example">
+<h3>Discussion of the Evaluation and Validation Plan Example</h3>
+<ul class="simple">
+<li><strong>Metrics</strong>: The chosen metrics align with Computer Systems priorities and the research objectives, directly addressing the gap in performance and efficiency for ML workloads.</li>
+<li><strong>Baselines</strong>: Comparing against the default Kubernetes scheduler, Volcano, and Tiresias ensures a comprehensive assessment against general-purpose and ML-specific schedulers.</li>
+<li><strong>Experimental Setup</strong>: The use of MLPerf benchmarks and a heterogeneous GKE cluster reflects real-world ML deployments.</li>
+<li><strong>Validation</strong>: Correctness checks and robustness tests ensure the scheduler works as intended and handles edge cases.</li>
+<li><strong>Analysis and Visualization</strong>: Bar charts compare key metrics across schedulers, making results clear and compelling.</li>
+<li><strong>Reproducibility</strong>: Sharing code and documentation aligns with systems research standards.</li>
+<li><strong>Limitations</strong>: Acknowledging the focus on ML workloads and specific hardware maintains transparency and suggests future work.</li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="additional-tips-for-computer-systems-evaluation">
+<h3>Additional Tips for Computer Systems Evaluation</h3>
+<ul class="simple">
+<li><strong>Real-World Relevance</strong>: Use industry-standard tools (e.g., Kubernetes, MLPerf) to appeal to practitioners.</li>
+<li><strong>Stress Testing</strong>: Include failure scenarios (e.g., node crashes) to mimic production environments.</li>
+<li><strong>Quantitative Rigor</strong>: Provide precise measurements and statistical analysis to meet the expectations of top-tier conferences.</li>
+<li><strong>Open-Source Contribution</strong>: Sharing code and traces enhances impact, especially for Kubernetes-related research.</li>
+</ul>
+</div>
+<div class="section" id="acknowledgement">
+<h3>Acknowledgement</h3>
+<p>This article was made with the help of Grok (accessed 2025-07-25)</p>
+</div>
+</div>
+
+  </div>
+</article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+       <ul class="col-sm-6 list-inline">
+          <li class="list-inline-item"><a href="./authors.html">Authors</a></li>
+          <li class="list-inline-item"><a href="./archives.html">Archives</a></li>
+          <li class="list-inline-item"><a href="./categories.html">Categories</a></li>
+        </ul>
+        <p class="col-sm-6 text-sm-right text-muted">
+          Generated by <a href="https://github.com/getpelican/pelican" target="_blank">Pelican</a> / <a href="https://github.com/nairobilug/pelican-alchemy" target="_blank">&#x2728;</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
