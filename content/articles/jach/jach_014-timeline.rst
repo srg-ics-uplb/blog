@@ -93,7 +93,7 @@ Notes
 - **Methods Development**: Weeks 8-9 (6 hours) allow detailed planning of system design, implementation, and testing, critical for systems research.
 - **Streamlined Tasks**: The literature review (Weeks 3-5) is limited to 6-8 papers, and the evaluation plan (Week 10) is simplified to fit the reduced timeframe.
 - **Tools**: Use Google Scholar, IEEE Xplore, ACM Digital Library, and arXiv for research, Zotero for citations, and LaTeX/Word with IEEE/ACM templates for drafting.
-- **Deliverable Scope**: The final proposal (5-8 pages) is suitable for a conference or funding application, with a well-defined gap and detailed methods.
+- **Deliverable Scope**: The final proposal (5-8 pages) is suitable for CMSC 190/200, with a well-defined gap and detailed methods.
 - **Validation**: The extended gap and methods phases ensure depth, with tasks building progressively.
 
 
