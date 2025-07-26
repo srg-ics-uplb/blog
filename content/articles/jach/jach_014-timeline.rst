@@ -1,12 +1,14 @@
 Research Proposal Part 7: Timeline
-###################################################
+##################################
 
 :date: 2025-07-26 18:42 
 :category: Research Proposal
 :author: Joseph Anthony C. Hermocilla
 :summary: The following table outlines a 12-week timeline for developing a research proposal in computer systems, with two weeks for identifying the research gap and two weeks for developing the methods section. The timeline assumes 3 hours of work per week, totaling 36 hours, and includes generic tasks and deliverables to produce a comprehensive proposal addressing a research gap in the field.
 
-The following table outlines a 12-week timeline for developing a research proposal in computer systems, with two weeks for identifying the research gap and two weeks for developing the methods section. The timeline assumes 3 hours of work per week, totaling 36 hours, and includes generic tasks and deliverables to produce a comprehensive proposal addressing a research gap in the field.
+The following table outlines a 12-week timeline for developing a research proposal in computer systems, with two weeks for identifying the research gap and two weeks for developing the methods section. The timeline assumes 3 hours of work per week, totaling 36 hours, and includes generic tasks and deliverables to produce a comprehensive proposal addressing a research gap in the field. 
+
+This timeline is for CMSC 190/200 students. The proposal presentation is usually during Week 14 and Week 15 of the semester. The 3 hours of work per week is just the minimum to accommodate other workloads. 
 
 .. list-table:: Weekly Timeline
    :widths: 10 45 45
