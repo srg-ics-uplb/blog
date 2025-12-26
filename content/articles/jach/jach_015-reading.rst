@@ -6,6 +6,8 @@ A Reading Guide for Systems Research
 :author: Joseph Anthony C. Hermocilla
 :summary: This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
 
+This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
+
 ===============================================================================
 Layer 0 — Mental Models (Read Once, Revisit Often)
 ===============================================================================
