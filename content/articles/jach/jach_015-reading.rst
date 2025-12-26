@@ -91,11 +91,13 @@ Operating Systems
 -------------------------------------------------------------------------------
 
 * The UNIX Time-Sharing System (Ritchie & Thompson)
-* Multics: An Overview
+* Multics - The first seven years
 * Exokernel: An Operating System Architecture for Application-Level Resource Management
 * Scheduler Activations
 * The Design and Implementation of a Log-Structured File System
 * Hints for Computer System Design (Butler Lampson)
+
+`Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os>`_
 
 Distributed Systems
 -------------------------------------------------------------------------------
