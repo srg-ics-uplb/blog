@@ -38,7 +38,7 @@ and the ability to learn what you need, when you need it.&lt;/p&gt;
 &lt;li&gt;&lt;p class="first"&gt;Computer Systems: A Programmer's Perspective (CS:APP)&lt;/p&gt;
 &lt;p&gt;Focus: Performance, memory hierarchy, hardware–software interface&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSTEP/"&gt;Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Focus: Abstractions, invariants, resource management, failure reasoning&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;Computer Networks: A Systems Approach — Larry Peterson &amp;amp; Bruce Davie&lt;/p&gt;
