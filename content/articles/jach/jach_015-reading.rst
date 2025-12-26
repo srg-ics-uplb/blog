@@ -449,10 +449,6 @@ Resources Beyond Papers
 * Mailing lists: USENIX OSDI announcements, LWN.net kernel coverage
 * Discord/Slack communities: Many systems projects have active communities
 
-===============================================================================
-Final Note
-===============================================================================
-
 ===============
 Acknowledgement
 ===============
