@@ -403,9 +403,6 @@ Session 3 (2 hours): Study code, artifacts, or attempt replication
 
 * Run experiments, modify parameters, break things intentionally
 
-Optional Session 4 (1 hour): Attend virtual seminars or reading groups
--------------------------------------------------------------------------------
-
 Long-Term Habits
 -------------------------------------------------------------------------------
 
