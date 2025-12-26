@@ -44,7 +44,7 @@ Core Textbooks
 
   Focus: Performance, memory hierarchy, hardware–software interface
 
-* Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau
+* `Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau <https://pages.cs.wisc.edu/~remzi/OSTEP/>`_ 
   
   Focus: Abstractions, invariants, resource management, failure reasoning
 
