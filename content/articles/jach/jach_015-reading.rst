@@ -37,7 +37,7 @@ Layer 0 — Mental Models (Read Once, Revisit Often)
 
 *Goal: Develop core systems intuition and reasoning.*
 
-Core Texts
+Core Textbooks
 -------------------------------------------------------------------------------
 
 * Computer Systems: A Programmer's Perspective (CS:APP)
