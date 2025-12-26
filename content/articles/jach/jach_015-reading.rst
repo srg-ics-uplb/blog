@@ -118,14 +118,19 @@ Performance and Architecture
 
 * Amdahl's Law
 * Memory Consistency Models
-* The End-to-End Argument in System Design
+* Formal Requirements for Virtualizable Third Generation Architectures
 * C10K Problem and Modern Variants (C10M)
+
+
+`Perf/Arch Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/perf_arch>`_
 
 Networked Systems
 -------------------------------------------------------------------------------
 
 * End-to-End Arguments in System Design (Saltzer, Reed, Clark)
 * The Design Philosophy of the DARPA Internet Protocols
+
+`Networks Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/networks>`_
 
 ===============================================================================
 Layer 2 — Conference "Greatest Hits" (Last 10–15 Years)
@@ -146,7 +151,7 @@ Start with Best Paper and Distinguished Paper awards. Prioritize papers that:
 
 Core Venues (Tier 1)
 -------------------------------------------------------------------------------
-/
+
 * SOSP — Symposium on Operating Systems Principles
 * OSDI — Operating Systems Design and Implementation
 * ASPLOS — Architectural Support for Programming Languages and Operating Systems
