@@ -97,7 +97,7 @@ Operating Systems
 * The Design and Implementation of a Log-Structured File System
 * Hints for Computer System Design (Butler Lampson)
 
-`Read the Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os>`_
+`OS Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os>`_
 
 Distributed Systems
 -------------------------------------------------------------------------------
@@ -110,6 +110,8 @@ Distributed Systems
 * Chain Replication for Supporting High Throughput and Availability
 * The Byzantine Generals Problem
 * Harvest, Yield, and Scalable Tolerant Systems
+
+`DistSys Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/distsys>`_
 
 Performance and Architecture
 -------------------------------------------------------------------------------
@@ -144,7 +146,7 @@ Start with Best Paper and Distinguished Paper awards. Prioritize papers that:
 
 Core Venues (Tier 1)
 -------------------------------------------------------------------------------
-
+/
 * SOSP — Symposium on Operating Systems Principles
 * OSDI — Operating Systems Design and Implementation
 * ASPLOS — Architectural Support for Programming Languages and Operating Systems
