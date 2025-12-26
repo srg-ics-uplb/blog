@@ -44,17 +44,19 @@ Core Textbooks
 
   Focus: Performance, memory hierarchy, hardware–software interface
 
+  Alternative: `Dive into Systems - Matthews, Newhall, Webb <https://diveintosystems.org/singlepage/>`_
+
 * `Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau <https://pages.cs.wisc.edu/~remzi/OSTEP/>`_ 
   
   Focus: Abstractions, invariants, resource management, failure reasoning
 
-* Computer Networks: A Systems Approach — Larry Peterson & Bruce Davie
+* `Computer Networks: A Systems Approach — Larry Peterson & Bruce Davie <https://book.systemsapproach.org/>`_
 
   Focus: Protocol design, end-to-end principle, layering
   
   (Though I recommend to read Fourozan's book first)
 
-* Distributed Systems — Maarten van Steen & Andrew Tanenbaum (3rd edition)
+* `Distributed Systems — Maarten van Steen & Andrew Tanenbaum <https://www.distributed-systems.net/index.php/books/ds4/>`_
   
   Focus: Coordination, replication protocols, fault models
 
