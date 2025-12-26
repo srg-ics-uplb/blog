@@ -6,7 +6,7 @@ A Reading Guide for Systems Researchers
 :author: Joseph Anthony C. Hermocilla
 :summary: This is a layered reading guide for researchers(beginner to senior) interested in computer systems. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
 
-This is a layered reading guide for researchers (beginner to senior) interested in computer systems. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
+This is a layered reading guide for researchers (beginner to senior) interested in computer systems. A little bit of structure will prevent the beginner from being overwhelmed with too much information. Keeping up with the recent advances in a field can be very overwheling because of the large volume of papers to read. 
 
 
 This reading stack is not a checklist to complete but a framework for continuous learning. Adjust the balance between layers based on your current research phase:
@@ -17,9 +17,9 @@ This reading stack is not a checklist to complete but a framework for continuous
 
    * - Research Phase
      - Focus Distribution
-   * - Early BS student?
+   * - Senior undergrad/First year MS student?
      - Spend 70% of time on Layers 0–2
-   * - Early MS/PhD student?
+   * - Early PhD student?
      - Balance Layers 2–4 evenly
    * - Preparing for publication?
      - Focus on Layer 6 with deep dives into Layer 2
