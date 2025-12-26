@@ -17,9 +17,9 @@ This reading stack is not a checklist to complete but a framework for continuous
 
    * - Research Phase
      - Focus Distribution
-   * - Starting out?
+   * - Early BS student?
      - Spend 70% of time on Layers 0–2
-   * - Early PhD student?
+   * - Early MS/PhD student?
      - Balance Layers 2–4 evenly
    * - Preparing for publication?
      - Focus on Layer 6 with deep dives into Layer 2
