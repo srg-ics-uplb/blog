@@ -107,9 +107,10 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Amdahl's Law&lt;/li&gt;
 &lt;li&gt;Memory Consistency Models&lt;/li&gt;
-&lt;li&gt;The End-to-End Argument in System Design&lt;/li&gt;
+&lt;li&gt;Formal Requirements for Virtualizable Third Generation Architectures&lt;/li&gt;
 &lt;li&gt;C10K Problem and Modern Variants (C10M)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/perf_arch"&gt;Perf/Arch Papers&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="networked-systems"&gt;
 &lt;h3&gt;Networked Systems&lt;/h3&gt;
@@ -117,6 +118,7 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;li&gt;End-to-End Arguments in System Design (Saltzer, Reed, Clark)&lt;/li&gt;
 &lt;li&gt;The Design Philosophy of the DARPA Internet Protocols&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/networks"&gt;Networks Papers&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="layer-2-conference-greatest-hits-last-1015-years"&gt;
@@ -134,13 +136,14 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="core-venues-tier-1"&gt;
 &lt;h3&gt;Core Venues (Tier 1)&lt;/h3&gt;
-&lt;p&gt;/
-* SOSP — Symposium on Operating Systems Principles
-* OSDI — Operating Systems Design and Implementation
-* ASPLOS — Architectural Support for Programming Languages and Operating Systems
-* EuroSys — European Conference on Computer Systems
-* NSDI — Networked Systems Design and Implementation
-* USENIX ATC — Annual Technical Conference&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;SOSP — Symposium on Operating Systems Principles&lt;/li&gt;
+&lt;li&gt;OSDI — Operating Systems Design and Implementation&lt;/li&gt;
+&lt;li&gt;ASPLOS — Architectural Support for Programming Languages and Operating Systems&lt;/li&gt;
+&lt;li&gt;EuroSys — European Conference on Computer Systems&lt;/li&gt;
+&lt;li&gt;NSDI — Networked Systems Design and Implementation&lt;/li&gt;
+&lt;li&gt;USENIX ATC — Annual Technical Conference&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="additional-important-venues"&gt;
 &lt;h3&gt;Additional Important Venues&lt;/h3&gt;
