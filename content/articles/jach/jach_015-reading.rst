@@ -51,6 +51,8 @@ Core Textbooks
 * Computer Networks: A Systems Approach — Larry Peterson & Bruce Davie
 
   Focus: Protocol design, end-to-end principle, layering
+  
+  (Though I recommend to read Fourozan's book first)
 
 * Distributed Systems — Maarten van Steen & Andrew Tanenbaum (3rd edition)
   
