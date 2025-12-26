@@ -30,6 +30,63 @@ This reading stack is not a checklist to complete but a framework for continuous
 The goal is not to read everything, but to develop intuition for what matters 
 and the ability to learn what you need, when you need it.
 
+___
+
+===============================================================================
+How to Read a Systems Paper
+===============================================================================
+
+For each paper, be able to answer:
+
+1. What assumption does this work challenge?
+2. What is the true technical contribution? (Often hidden in Section 3-4, 
+   not the abstract)
+3. What is missing from the evaluation? (Workloads, baselines, failure scenarios)
+4. What fails if the environment or scale changes?
+5. Would this design survive an order-of-magnitude increase in scale?
+6. What would you do differently? (Always have an opinion)
+7. How does this relate to three other papers you've read? (Build connections)
+
+Critical Reading Checklist
+--------------------------
+
+* Are the threat model / failure model / consistency model explicit?
+* Are performance claims backed by microbenchmarks?
+* Is there a comparison to prior work under the same conditions?
+* Are negative results or limitations discussed honestly?
+* Is the artifact available and does it match the paper's claims?
+
+___
+
+===============================================================================
+Minimal Weekly Study Plan (6–8 Hours)
+===============================================================================
+
+Session 1 (2.5 hours): Deep read one paper with notes
+-------------------------------------------------------------------------------
+
+* Read twice: once for understanding, once for critique
+* Sketch alternative designs
+
+Session 2 (1.5 hours): Skim 5–8 papers and maintain reading log
+-------------------------------------------------------------------------------
+
+Track: problem, approach, key insight, limitations
+
+Session 3 (2 hours): Study code, artifacts, or attempt replication
+-------------------------------------------------------------------------------
+
+* Run experiments, modify parameters, break things intentionally
+
+Long-Term Habits
+-------------------------------------------------------------------------------
+
+* Maintain a "research ideas" document — jot down half-baked ideas immediately
+* Participate in reading groups — explaining papers solidifies understanding
+* Write blog posts or notes — teaching forces clarity
+
+___
+
 
 ===============================================================================
 Layer 0 — Mental Models (Read Once, Revisit Often)
@@ -370,56 +427,8 @@ Broader Context
   (Google, Meta, Amazon, Microsoft)
 * Standards and specifications: POSIX, ACPI, PCIe, RDMA
 
-===============================================================================
-How to Read a Systems Paper
-===============================================================================
 
-For each paper, be able to answer:
-
-1. What assumption does this work challenge?
-2. What is the true technical contribution? (Often hidden in Section 3-4, 
-   not the abstract)
-3. What is missing from the evaluation? (Workloads, baselines, failure scenarios)
-4. What fails if the environment or scale changes?
-5. Would this design survive an order-of-magnitude increase in scale?
-6. What would you do differently? (Always have an opinion)
-7. How does this relate to three other papers you've read? (Build connections)
-
-Critical Reading Checklist
--------------------------------------------------------------------------------
-
-* Are the threat model / failure model / consistency model explicit?
-* Are performance claims backed by microbenchmarks?
-* Is there a comparison to prior work under the same conditions?
-* Are negative results or limitations discussed honestly?
-* Is the artifact available and does it match the paper's claims?
-
-===============================================================================
-Minimal Weekly Study Plan (6–8 Hours)
-===============================================================================
-
-Session 1 (2.5 hours): Deep read one paper with notes
--------------------------------------------------------------------------------
-
-* Read twice: once for understanding, once for critique
-* Sketch alternative designs
-
-Session 2 (1.5 hours): Skim 5–8 papers and maintain reading log
--------------------------------------------------------------------------------
-
-Track: problem, approach, key insight, limitations
-
-Session 3 (2 hours): Study code, artifacts, or attempt replication
--------------------------------------------------------------------------------
-
-* Run experiments, modify parameters, break things intentionally
-
-Long-Term Habits
--------------------------------------------------------------------------------
-
-* Maintain a "research ideas" document — jot down half-baked ideas immediately
-* Participate in reading groups — explaining papers solidifies understanding
-* Write blog posts or notes — teaching forces clarity
+___
 
 ===============================================================================
 Indicators of Systems Fluency
@@ -444,6 +453,8 @@ Red Flags You've Developed Good Taste
 * You notice when evaluation sections bury important details
 * You can predict which papers will be influential in 5 years
 
+___
+
 ===============================================================================
 Meta-Advice for Sustainable Research Practice
 ===============================================================================
@@ -457,6 +468,8 @@ Meta-Advice for Sustainable Research Practice
 6. Version control your notes: Git-tracked markdown files are surprisingly effective
 7. Revisit old papers: Your understanding evolves; re-reading reveals new layers
 
+___
+
 ===============================================================================
 Resources Beyond Papers
 ===============================================================================
@@ -467,6 +480,7 @@ Resources Beyond Papers
 * Mailing lists: USENIX OSDI announcements, LWN.net kernel coverage
 * Discord/Slack communities: Many systems projects have active communities
 
+---
 ===============
 Acknowledgement
 ===============
