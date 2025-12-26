@@ -6,13 +6,36 @@ A Reading Guide for Systems Research
 :author: Joseph Anthony C. Hermocilla
 :summary: This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
 
-This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
+This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information. 
+
+This reading stack is not a checklist to complete but a framework for 
+continuous learning. Adjust the balance between layers based on your current 
+research phase:
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Research Phase
+     - Focus Distribution
+   * - Starting out?
+     - Spend 70% of time on Layers 0–2
+   * - Early PhD student?
+     - Balance Layers 2–4 evenly
+   * - Preparing for publication?
+     - Focus on Layer 6 with deep dives into Layer 2
+   * - Senior researcher?
+     - Maintain Layer 5 continuously while mentoring others through earlier layers
+
+The goal is not to read everything, but to develop intuition for what matters 
+and the ability to learn what you need, when you need it.
+
 
 ===============================================================================
 Layer 0 — Mental Models (Read Once, Revisit Often)
 ===============================================================================
 
-Goal: Develop core systems intuition and reasoning.
+*Goal: Develop core systems intuition and reasoning.*
 
 Core Texts
 -------------------------------------------------------------------------------
@@ -52,7 +75,7 @@ Additional Foundational Texts
 Layer 1 — Canonical Systems Papers (Shared Vocabulary)
 ===============================================================================
 
-Goal: Learn foundational ideas that reappear across decades of systems research.
+*Goal: Learn foundational ideas that reappear across decades of systems research.*
 
 Operating Systems
 -------------------------------------------------------------------------------
@@ -94,7 +117,7 @@ Networked Systems
 Layer 2 — Conference "Greatest Hits" (Last 10–15 Years)
 ===============================================================================
 
-Goal: Understand how classical ideas evolved under modern constraints.
+*Goal: Understand how classical ideas evolved under modern constraints.*
 
 Core Venues (Tier 1)
 -------------------------------------------------------------------------------
@@ -142,7 +165,7 @@ Common Contemporary Topics
 Layer 3 — Systems and Security Intersection
 ===============================================================================
 
-Goal: Understand how security constraints influence systems design.
+*Goal: Understand how security constraints influence systems design.*
 
 Key Venues
 -------------------------------------------------------------------------------
@@ -177,7 +200,7 @@ Essential Security Papers for Systems Researchers
 Layer 4 — Artifacts and Code (Mandatory)
 ===============================================================================
 
-Goal: Understand what is feasible in practice.
+*Goal: Understand what is feasible in practice.*
 
 Systems to Study
 -------------------------------------------------------------------------------
@@ -207,7 +230,7 @@ Code Reading Practice
 Layer 5 — Live Research Feed (Continuous Update)
 ===============================================================================
 
-Goal: Track emerging ideas without information overload.
+*Goal: Track emerging ideas without information overload.*
 
 Weekly
 -------------------------------------------------------------------------------
@@ -260,7 +283,7 @@ Representative Research Groups
 Layer 6 — Personal Research Track (Deep Dive)
 ===============================================================================
 
-Goal: Transition from consumer to producer of research.
+*Goal: Transition from consumer to producer of research.*
 
 Choose One Focus Area
 -------------------------------------------------------------------------------
@@ -293,7 +316,7 @@ For the Chosen Area
 Layer 7 — Cross-Cutting Concerns
 ===============================================================================
 
-Goal: Develop skills beyond paper reading.
+*Goal: Develop skills beyond paper reading.*
 
 Writing and Communication
 -------------------------------------------------------------------------------
@@ -429,28 +452,6 @@ Resources Beyond Papers
 ===============================================================================
 Final Note
 ===============================================================================
-
-This reading stack is not a checklist to complete but a framework for 
-continuous learning. Adjust the balance between layers based on your current 
-research phase:
-
-.. list-table::
-   :widths: 30 70
-   :header-rows: 1
-
-   * - Research Phase
-     - Focus Distribution
-   * - Starting out?
-     - Spend 70% of time on Layers 0–2
-   * - Early PhD student?
-     - Balance Layers 2–4 evenly
-   * - Preparing for publication?
-     - Focus on Layer 6 with deep dives into Layer 2
-   * - Senior researcher?
-     - Maintain Layer 5 continuously while mentoring others through earlier layers
-
-The goal is not to read everything, but to develop intuition for what matters 
-and the ability to learn what you need, when you need it.
 
 ===============
 Acknowledgement
