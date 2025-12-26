@@ -268,7 +268,7 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;div class="section" id="systems-to-study"&gt;
 &lt;h3&gt;Systems to Study&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Linux kernel (selected subsystems: scheduler, memory management, VFS)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://linux-kernel-labs.github.io/refs/heads/master/#"&gt;Linux kernel (selected subsystems: scheduler, memory management, VFS)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;xv6 teaching operating system — read the entire codebase&lt;/li&gt;
 &lt;li&gt;seL4 microkernel (papers and code)&lt;/li&gt;
 &lt;li&gt;Kubernetes architecture and design documents&lt;/li&gt;
