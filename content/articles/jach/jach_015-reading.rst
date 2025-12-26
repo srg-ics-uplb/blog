@@ -119,6 +119,17 @@ Layer 2 — Conference "Greatest Hits" (Last 10–15 Years)
 
 *Goal: Understand how classical ideas evolved under modern constraints.*
 
+Reading Strategy
+-------------------------------------------------------------------------------
+
+Start with Best Paper and Distinguished Paper awards. Prioritize papers that:
+
+* Introduce new abstractions
+* Remove long-standing assumptions
+* Provide reusable systems designs
+* Include open-source artifacts (reproducibility matters)
+
+
 Core Venues (Tier 1)
 -------------------------------------------------------------------------------
 
@@ -136,17 +147,6 @@ Additional Important Venues
 * SIGMOD/VLDB — Database systems (increasingly systems-relevant)
 * HotOS/HotNets — Early-stage ideas and position papers
 * FAST — File and Storage Technologies
-
-Reading Strategy
--------------------------------------------------------------------------------
-
-Start with Best Paper and Distinguished Paper awards. Prioritize papers that:
-
-* Introduce new abstractions
-* Remove long-standing assumptions
-* Provide reusable systems designs
-* Include open-source artifacts (reproducibility matters)
-* Read the shepherd's comments if available — reveals what changed during revision
 
 Common Contemporary Topics
 -------------------------------------------------------------------------------
