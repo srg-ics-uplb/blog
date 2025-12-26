@@ -1,12 +1,13 @@
-A Reading Guide for Systems Research
-####################################
+A Reading Guide for Systems Researchers
+#######################################
 
 :date: 2025-12-24 12:02 
 :category: Research
 :author: Joseph Anthony C. Hermocilla
-:summary: This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
+:summary: This is a layered reading guide for researchers interested in computer systems. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
 
-This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information. 
+This is a layered reading guide for researchers interested in computer systems. A little bit of structure will prevent the beginner from being overwhelmed with too much information.
+
 
 This reading stack is not a checklist to complete but a framework for 
 continuous learning. Adjust the balance between layers based on your current 
