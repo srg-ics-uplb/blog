@@ -44,7 +44,7 @@ Core Textbooks
 
   Focus: Performance, memory hierarchy, hardware–software interface
 
-  Alternative: `Dive into Systems - Matthews, Newhall, Webb <https://diveintosystems.org/singlepage/>`_
+  (Alternative: `Dive into Systems - Matthews, Newhall, Webb <https://diveintosystems.org/singlepage/>`_ )
 
 * `Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau <https://pages.cs.wisc.edu/~remzi/OSTEP/>`_ 
   
