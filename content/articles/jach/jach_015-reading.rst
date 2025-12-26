@@ -68,6 +68,14 @@ Additional Foundational Texts
   
   Focus: Distributed systems models, consistency, replication
 
+* Data Communications and Networking - Behrouz A. Forouzan
+ 
+  Focus: Bottom-up approach with lots of technical details
+
+* The Art of Computer Systems Performance Analysis: Techniques for Experimental Design, Measurement, Simulation, and Modeling - Raj Jain
+
+  Focus: How to measure performance of computer systems
+
 .. note::
    These texts form the implicit knowledge base assumed by most systems papers.
 
