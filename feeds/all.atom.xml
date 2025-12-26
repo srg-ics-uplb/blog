@@ -37,7 +37,7 @@ and the ability to learn what you need, when you need it.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;Computer Systems: A Programmer's Perspective (CS:APP)&lt;/p&gt;
 &lt;p&gt;Focus: Performance, memory hierarchy, hardware–software interface&lt;/p&gt;
-&lt;p&gt;Alternative: &lt;a class="reference external" href="https://diveintosystems.org/singlepage/"&gt;Dive into Systems - Matthews, Newhall, Webb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(Alternative: &lt;a class="reference external" href="https://diveintosystems.org/singlepage/"&gt;Dive into Systems - Matthews, Newhall, Webb&lt;/a&gt; )&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://pages.cs.wisc.edu/~remzi/OSTEP/"&gt;Operating Systems: Three Easy Pieces (OSTEP) — Arpaci-Dusseau&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Focus: Abstractions, invariants, resource management, failure reasoning&lt;/p&gt;
