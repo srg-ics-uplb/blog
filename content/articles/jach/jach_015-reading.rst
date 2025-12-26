@@ -97,7 +97,7 @@ Operating Systems
 * The Design and Implementation of a Log-Structured File System
 * Hints for Computer System Design (Butler Lampson)
 
-`Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os>`_
+`Read the Papers <https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os>`_
 
 Distributed Systems
 -------------------------------------------------------------------------------
