@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Lost Packets</title><link href="https://srg-ics-uplb.github.io/blog/" rel="alternate"></link><link href="https://srg-ics-uplb.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://srg-ics-uplb.github.io/blog/</id><updated>2025-12-24T12:02:00+08:00</updated><entry><title>A Reading Guide for Systems Research</title><link href="https://srg-ics-uplb.github.io/blog/a-reading-guide-for-systems-research.html" rel="alternate"></link><published>2025-12-24T12:02:00+08:00</published><updated>2025-12-24T12:02:00+08:00</updated><author><name>Joseph Anthony C. Hermocilla</name></author><id>tag:srg-ics-uplb.github.io,2025-12-24:/blog/a-reading-guide-for-systems-research.html</id><summary type="html">&lt;p class="first last"&gt;This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.&lt;/p&gt;
-</summary><content type="html">&lt;div class="section" id="layer-0-mental-models-read-once-revisit-often"&gt;
+</summary><content type="html">&lt;p&gt;This is a layered reading guide for students interested in computer systems research. A little bit of structure will prevent the beginner from being overwhelmed with too much information.&lt;/p&gt;
+&lt;div class="section" id="layer-0-mental-models-read-once-revisit-often"&gt;
 &lt;h2&gt;Layer 0 — Mental Models (Read Once, Revisit Often)&lt;/h2&gt;
 &lt;p&gt;Goal: Develop core systems intuition and reasoning.&lt;/p&gt;
 &lt;div class="section" id="core-texts"&gt;
