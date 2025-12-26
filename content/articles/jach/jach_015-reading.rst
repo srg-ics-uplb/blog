@@ -283,7 +283,7 @@ Layer 4 — Artifacts and Code (Mandatory)
 Systems to Study
 -------------------------------------------------------------------------------
 
-* Linux kernel (selected subsystems: scheduler, memory management, VFS)
+* `Linux kernel (selected subsystems: scheduler, memory management, VFS) <https://linux-kernel-labs.github.io/refs/heads/master/#>`_
 * xv6 teaching operating system — read the entire codebase
 * seL4 microkernel (papers and code)
 * Kubernetes architecture and design documents
