@@ -86,7 +86,7 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;li&gt;The Design and Implementation of a Log-Structured File System&lt;/li&gt;
 &lt;li&gt;Hints for Computer System Design (Butler Lampson)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os"&gt;Read the Papers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/os"&gt;OS Papers&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="distributed-systems"&gt;
 &lt;h3&gt;Distributed Systems&lt;/h3&gt;
@@ -100,6 +100,7 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;li&gt;The Byzantine Generals Problem&lt;/li&gt;
 &lt;li&gt;Harvest, Yield, and Scalable Tolerant Systems&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/srg-ics-uplb/systems-track-primer/tree/main/readings/distsys"&gt;DistSys Papers&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="performance-and-architecture"&gt;
 &lt;h3&gt;Performance and Architecture&lt;/h3&gt;
@@ -133,14 +134,13 @@ database systems and distributed transactions)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="core-venues-tier-1"&gt;
 &lt;h3&gt;Core Venues (Tier 1)&lt;/h3&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;SOSP — Symposium on Operating Systems Principles&lt;/li&gt;
-&lt;li&gt;OSDI — Operating Systems Design and Implementation&lt;/li&gt;
-&lt;li&gt;ASPLOS — Architectural Support for Programming Languages and Operating Systems&lt;/li&gt;
-&lt;li&gt;EuroSys — European Conference on Computer Systems&lt;/li&gt;
-&lt;li&gt;NSDI — Networked Systems Design and Implementation&lt;/li&gt;
-&lt;li&gt;USENIX ATC — Annual Technical Conference&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;/
+* SOSP — Symposium on Operating Systems Principles
+* OSDI — Operating Systems Design and Implementation
+* ASPLOS — Architectural Support for Programming Languages and Operating Systems
+* EuroSys — European Conference on Computer Systems
+* NSDI — Networked Systems Design and Implementation
+* USENIX ATC — Annual Technical Conference&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="additional-important-venues"&gt;
 &lt;h3&gt;Additional Important Venues&lt;/h3&gt;
