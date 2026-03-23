@@ -15,7 +15,7 @@ These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publi
 Acknowledgment ensures:
 
 - Proper attribution of institutional support
-- Visibility of the computing  in facilities outputs
+- Visibility of the facilities in research outputs
 - Justification for continued funding and expansion
 
 Since we offer our services for free, we reserve the right to accept or deny requests.
