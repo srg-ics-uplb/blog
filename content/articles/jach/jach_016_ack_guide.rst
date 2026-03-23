@@ -18,6 +18,7 @@ Acknowledgment ensures:
 - Visibility of the computing  in facilities outputs
 - Justification for continued funding and expansion
 
+Since we offer our services for free, we reserve the right to accept or deny requests.
 
 2. Scope
 --------
