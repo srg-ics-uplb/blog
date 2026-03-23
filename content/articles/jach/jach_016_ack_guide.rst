@@ -51,7 +51,7 @@ All users must include the following statement (or equivalent):
 
 ::
 
-   This work utilized the facilities of the Systems Research Group, Institute of Computer Science, University of the Philippines Los Banos, which provided the computational resources and technical support necessary for this study.
+   This work utilized the resources of the Systems Research Group, Institute of Computer Science, University of the Philippines Los Banos, which provided the computational facilities and technical support necessary for this study.
 
 
 
