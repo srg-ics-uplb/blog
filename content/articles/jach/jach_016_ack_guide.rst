@@ -106,6 +106,6 @@ This supports:
 
 Failure to acknowledge SRG-ICS-UPLB may result in:
 
-- Denial of future allocation requests
+- Denial of future requests
 
 
