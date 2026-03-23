@@ -4,13 +4,13 @@ SRG-ICS-UPLB Acknowledgment Guidelines
 :date: 2026-03-23 22:02 
 :category: Research
 :author: Joseph Anthony C. Hermocilla
-:summary: These guidelines define how users must acknowledge the SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
+:summary: These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
 
 
 1. Purpose
 ----------
 
-These guidelines define how users must acknowledge the SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
+These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
 
 Acknowledgment ensures:
 
@@ -28,13 +28,13 @@ These guidelines apply to:
 - Faculty research publications
 - Technical reports and project documentation
 - Conference papers and posters
-- Software artifacts and datasets generated using the SRG-ICS-UPLB computing facilities
+- Software artifacts and datasets generated using SRG-ICS-UPLB computing facilities
 
 
 3. When Acknowledgment is Required
 ----------------------------------
 
-Users must acknowledge the SRG-ICS-UPLB if they used any of the following:
+Users must acknowledge SRG-ICS-UPLB if they used any of the following:
 
 - Compute resources (CPU, GPU nodes)
 - Storage systems (home, scratch, project space)
@@ -104,7 +104,7 @@ This supports:
 8. Compliance
 -------------
 
-Failure to acknowledge the SRG-ICS-UPLB may result in:
+Failure to acknowledge SRG-ICS-UPLB may result in:
 
 - Denial of future allocation requests
 
