@@ -18,7 +18,7 @@ Acknowledgment ensures:
 - Visibility of the facilities in research outputs
 - Justification for continued funding and expansion
 
-Since we offer our services for free, we reserve the right to accept or deny requests.
+Since we offer our services for free and we also use the resources for our own research, we reserve the right to accept or deny requests.
 
 2. Scope
 --------
