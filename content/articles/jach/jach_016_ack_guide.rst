@@ -4,18 +4,18 @@ SRG-ICS-UPLB Acknowledgment Guidelines
 :date: 2026-03-23 22:02 
 :category: Research
 :author: Joseph Anthony C. Hermocilla
-:summary: These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
+:summary: These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing facilities.
 
 
 1. Purpose
 ----------
 
-These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing resources.
+These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing facilities.
 
 Acknowledgment ensures:
 
 - Proper attribution of institutional support
-- Visibility of the computing resources in research outputs
+- Visibility of the computing  in facilities outputs
 - Justification for continued funding and expansion
 
 
