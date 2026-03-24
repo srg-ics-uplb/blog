@@ -104,8 +104,6 @@ This supports:
 8. Compliance
 -------------
 
-Failure to acknowledge SRG-ICS-UPLB may result in:
-
-- Denial of future requests
+Failure to acknowledge SRG-ICS-UPLB may result in denial of future requests.
 
 
