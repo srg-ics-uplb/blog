@@ -2,7 +2,7 @@ SRG-ICS-UPLB Acknowledgment Guidelines
 ######################################
 
 :date: 2026-03-23 22:02 
-:category: Research, Collaboration
+:category: Research
 :author: Joseph Anthony C. Hermocilla
 :summary: These guidelines define how users must acknowledge SRG-ICS-UPLB in theses, publications, reports, and other outputs that utilized its computing facilities.
 
