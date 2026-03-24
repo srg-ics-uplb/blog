@@ -18,7 +18,7 @@ Acknowledgment ensures:
 - Visibility of the facilities in research outputs
 - Justification for continued funding and expansion
 
-Since we offer our services for free and we also use the resources for our own research, we reserve the right to accept or deny requests.
+Since we offer our services for free (sometimes for good coffee) and we also use the resources for our own research, we reserve the right to accept or deny requests.
 
 2. Scope
 --------
@@ -52,8 +52,7 @@ All users must include the following statement (or equivalent):
 
 ::
 
-   This work utilized the resources of the Systems Research Group, Institute of Computer Science, University of the Philippines Los Banos, which provided the computational facilities and technical support necessary for this study.
-
+   The completion of this work was supported by the computational facilities and expertise made available by the Systems Research Group, Institute of Computer Science, University of the Philippines Los Baños.
 
 
 5. Placement of Acknowledgment
@@ -82,7 +81,7 @@ Software and Repositories
 6. Authorship vs. Acknowledgment
 --------------------------------
 
-- SRG-ICS-UPLB group members should be acknowledged, not listed as co-authors, unless they made significant intellectual contributions (e.g., algorithm design, analysis, or writing).
+- SRG-ICS-UPLB group members should be acknowledged, not listed as co-authors, unless they made `significant intellectual contributions <https://blog.jachermocilla.org/2019/11/srg-authorship-guiding-principles.html>`_ (e.g., algorithm design, analysis, or writing).
 - Routine technical assistance does not qualify for authorship.
 
 
