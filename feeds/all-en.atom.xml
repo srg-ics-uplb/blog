@@ -9,7 +9,7 @@
 &lt;li&gt;Visibility of the facilities in research outputs&lt;/li&gt;
 &lt;li&gt;Justification for continued funding and expansion&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Since we offer our services for free and we also use the resources for our own research, we reserve the right to accept or deny requests.&lt;/p&gt;
+&lt;p&gt;Since we offer our services for free (sometimes for good coffee) and we also use the resources for our own research, we reserve the right to accept or deny requests.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="scope"&gt;
 &lt;h2&gt;2. Scope&lt;/h2&gt;
@@ -37,7 +37,7 @@
 &lt;h2&gt;4. Standard Acknowledgment Statement&lt;/h2&gt;
 &lt;p&gt;All users must include the following statement (or equivalent):&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-This work utilized the resources of the Systems Research Group, Institute of Computer Science, University of the Philippines Los Banos, which provided the computational facilities and technical support necessary for this study.
+The completion of this work was supported by the computational facilities and expertise made available by the Systems Research Group, Institute of Computer Science, University of the Philippines Los Baños.
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="placement-of-acknowledgment"&gt;
@@ -66,7 +66,7 @@ This work utilized the resources of the Systems Research Group, Institute of Com
 &lt;div class="section" id="authorship-vs-acknowledgment"&gt;
 &lt;h2&gt;6. Authorship vs. Acknowledgment&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;SRG-ICS-UPLB group members should be acknowledged, not listed as co-authors, unless they made significant intellectual contributions (e.g., algorithm design, analysis, or writing).&lt;/li&gt;
+&lt;li&gt;SRG-ICS-UPLB group members should be acknowledged, not listed as co-authors, unless they made &lt;a class="reference external" href="https://blog.jachermocilla.org/2019/11/srg-authorship-guiding-principles.html"&gt;significant intellectual contributions&lt;/a&gt; (e.g., algorithm design, analysis, or writing).&lt;/li&gt;
 &lt;li&gt;Routine technical assistance does not qualify for authorship.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
